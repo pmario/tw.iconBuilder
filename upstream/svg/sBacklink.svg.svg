@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg id="svg2" xmlns="http://www.w3.org/2000/svg" height="29pt" width="29pt" version="1.0" viewBox="13 43 29 29">
-<g id="iconSymbol" stroke="#4d4d4d"  stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-miterlimit="4" stroke-width="2" >
- <rect height="3.8621" width="9.0721" y="60.465" x="20.233" />
- <rect height="3.8621" width="9.0721" y="61.407" x="26.134" />
- <path d="m20.733,53.2,2.6732-2.9894,0,1.7789,10.673,0.000001,0,2.5977-10.673,0,0,1.6024-2.6732-2.9894z" stroke-linecap="butt" stroke-width="1.48043621"/>
-</g>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="29pt" viewBox="13 43 29 29" width="29pt" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata14">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs12">
+  <title id="title26">Layer 1</title>
+  <title id="title22">Canvas 1</title>
+ </defs>
+ <g id="g3826">
+  <g id="iconSymbol" stroke-miterlimit="4" stroke="#4d4d4d" stroke-dasharray="none" fill="none">
+   <path id="path3819" stroke-linejoin="round" d="m18.157,51.533,3.7222-3.601,0,2.1429,14.861,0.000001,0,3.1292-14.861,0,0,1.9302-3.7222-3.601z" stroke-linecap="butt" stroke-width="1.51999998"/>
+   <rect id="rect3804" stroke-linejoin="miter" ry="2.7321" transform="matrix(0.8660254,-0.50000001,0.50000001,0.8660254,0,0)" height="8.6854" width="10.752" y="64.719" x="-9.3806" stroke-width="1.6"/>
+   <rect id="rect3806" stroke-linejoin="miter" transform="matrix(0.8660254,-0.50000001,0.50000001,0.8660254,0,0)" ry="2.7321" height="8.6854" width="10.752" y="61.234" x="-15.415" stroke-width="1.6"/>
+  </g>
+ </g>
 </svg>
