@@ -1,0 +1,19 @@
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   Makefile
+#	deleted:    plugins/DummyPlugin.js.meta
+#	new file:   status.list
+#	deleted:    upstream/content/HelloWorld.tid
+#	deleted:    upstream/content/UsefullLinks.tid
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Makefile
+#	modified:   status.list
+#
