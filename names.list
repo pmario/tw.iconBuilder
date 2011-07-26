@@ -1,3 +1,9 @@
-plugins/sBacklink.svg.svg
-plugins/sBacklink.svg.svg.meta
+names.list
+plugins.list
+plugins/sPermalink.svg.svg
+plugins/sPermalink.svg.svg.meta
+plugins/sPermaview.svg.svg
+plugins/sPermaview.svg.svg.meta
 status.list
+upload.sh
+upstream/svg/sPermalink.svg.svg.meta

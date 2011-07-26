@@ -26,7 +26,21 @@ do
 		tiddler=$(basename "$file" .html)
 		;;
 	*.svg)
-		content="image/svg+xml"
+		if [ ! -f $file.meta ]
+		then
+			content="image/svg+xml"
+		else
+			content="text/plain"
+			o="$file"
+			meta="$o.meta"
+			file="/tmp/sts.tid"
+			(
+				cat $o.meta
+				echo 
+				cat $o 
+			)> $file
+			tiddler=$(basename "$o" .svg)
+		fi		
 		;;
 	*.css)
 		content="text/css"

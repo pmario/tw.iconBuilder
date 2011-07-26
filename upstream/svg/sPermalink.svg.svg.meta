@@ -16,3 +16,4 @@ server.permissions: read, write, create, delete
 server.recipe: iconbuilder_private
 server.type: tiddlyweb
 server.workspace: bags/iconbuilder_public
+

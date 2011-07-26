@@ -2,13 +2,19 @@
 # Changes to be committed:
 #   (use "git reset HEAD <file>..." to unstage)
 #
-#	new file:   plugins/sBacklink.svg.svg
-#	new file:   plugins/sBacklink.svg.svg.meta
-#	new file:   status.list
+#	new file:   plugins/sPermalink.svg.svg
+#	new file:   plugins/sPermalink.svg.svg.meta
+#	new file:   plugins/sPermaview.svg.svg
+#	new file:   plugins/sPermaview.svg.svg.meta
+#	modified:   status.list
 #
 # Changes not staged for commit:
-#   (use "git add <file>..." to update what will be committed)
+#   (use "git add/rm <file>..." to update what will be committed)
 #   (use "git checkout -- <file>..." to discard changes in working directory)
 #
+#	deleted:    names.list
+#	deleted:    plugins.list
 #	modified:   status.list
+#	modified:   upload.sh
+#	modified:   upstream/svg/sPermalink.svg.svg.meta
 #
