@@ -38,6 +38,9 @@ upstream-html:
 
 # NOTE: the following section is quite hacky. 
 # There are more files involved, than should be, for debugging reasons.
+# It needs to be used in "production" for a while, to see if it works. :) 
+
+# below are the tools
 
 names.list: clean-list status.list
 	@echo ""
@@ -68,10 +71,11 @@ git-list: names.list
 	@echo ""
 	cat git.list
 
-gdist: git-list
+# this are the "primary" dist commands.
+distall: git-list
 	./upload.sh iconbuilder $(GIT_LIST)
 
-mdist: plugins-list
+distplugins: plugins-list
 	./upload.sh iconbuilder $(PLUGINS_LIST)
 
 
