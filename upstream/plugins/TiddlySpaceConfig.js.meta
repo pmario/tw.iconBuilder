@@ -1,0 +1,17 @@
+title: TiddlySpaceConfig
+modifier: osmosoft
+created: 20110719144323
+modified: 20110719144323
+tags: excludeLists excludeSearch systemConfig
+server.bag: tiddlyspace
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;tiddlyspace/TiddlySpaceConfig/466977;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: osmosoft
+_hash: 538d52f2283e2c02cf67fde9ef2c18ea51d1972f
+server.page.revision: 466977
+server.title: TiddlySpaceConfig
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/tiddlyspace

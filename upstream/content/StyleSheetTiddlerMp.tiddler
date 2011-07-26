@@ -1,0 +1,417 @@
+<div title="StyleSheetTiddlerMp" modifier="pmario" created="20101124160133" modified="20101206214059" tags="excludeLists" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/StyleSheetTiddlerMp/70537;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="3dac221e4e3cfe312b38313808ce72d8348def7a" revision.text="" server.page.revision="70537" server.title="StyleSheetTiddlerMp" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>/*{{{*/
+/* new nui */
+.concertina {
+	overflow: hidden;
+	display: none;
+	height: 0;
+	background-color: white;
+}
+
+.concertina br {
+	display: none;
+}
+
+
+.concertinaOn .concertina {
+	display: auto;
+	height: auto;
+	border-bottom: 1px solid [[ColorPalette: :PrimaryDark]];
+	overflow: auto;
+}
+
+.concertina .publishButton {
+	border-radius: 1em;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	background-color: white;
+	border: 1px solid black;
+	display: block;
+	padding: 0.3em;
+	text-align: center;
+	width: 12em;
+}
+
+.privateNotPublic .concertina,
+.private .concertina {
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0.05,#DE85B3),color-stop(0.5,#eee),color-stop(1, #fff));
+	background: -moz-linear-gradient(top center , #fff 5%, #eee 20%, #DE85B3 100%);
+	/* For Internet Explorer 5.5 - 7 */
+	filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff, endColorstr=#ffDE85B3)";
+	/* For Internet Explorer 8 */
+	-ms-filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff, endColorstr=#ffDE85B3)";
+}
+
+.public .concertina,
+.privateAndPublic .concertina {
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0.05, #BBE7FD),color-stop(0.5,#eee),color-stop(1, #fff));
+	background: -moz-linear-gradient(top center , #fff 5%, #eee 20%, #BBE7FD 100%);
+	/* For Internet Explorer 5.5 - 7 */
+	filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff, endColorstr=#ffBBE7FD)";
+	/* For Internet Explorer 8 */
+	-ms-filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff, endColorstr=#ffBBE7FD)";
+}
+
+.external .concertina {
+	background-color: white;
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0.05, #8BD69E),color-stop(0.5,#eee),color-stop(1, #fff));
+	background: -moz-linear-gradient(top center , #fff 5%, #eee 20%, #8BD69E 100%);
+	/* For Internet Explorer 5.5 - 7 */
+	filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff, endColorstr=#ff8BD69E)";
+	/* For Internet Explorer 8 */
+	-ms-filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff, endColorstr=#ff8BD69E)";
+}
+
+/* fix grayout from original tw. */
+.selected .tagging,
+.selected .tagged,
+.selected .tagging:hover,
+.selected .tagged:hover {
+	background: none;
+	border: none;
+}
+
+.tagging, .tagged {
+	background: none;
+	border: none;
+	padding: 0.5em 0 0 0.5em;
+}
+
+.tagging {
+	float: none;
+}
+
+/** nächste zeile wirkt nicht ??? */
+.tagging ul {
+	margin: 0.25em 0 0 0.3em;
+}
+
+.tagging li {
+	display: inline;
+	float: left;
+}
+
+.tagging .tiddlyLink {
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	background-color: white;
+	display: block;
+	margin: 0 0.2em 0.2em;
+        padding: 0.8em;
+}
+
+/* nui */
+.tagged {
+	float: none;
+	margin-top: 1em;
+}
+
+.tagged .quickopentag {
+	-webkit-border-radius: 0px 15px 15px 0px;
+	-moz-border-radius: 0px 15px 15px 0px;
+	background-color: white;
+	border: 2px 2px 2px 0 solid #ccc;
+	display: block;
+	margin: 0 0.2em 0.2em -1.1em;
+	padding: 0 0.4em;
+	font-size: 0.9em;
+}
+
+.tagged a.button,
+.tagged a.tiddlyLink {
+	border: none;
+	display: inline;
+	font-size: 0.9em;
+	word-wrap: break-word;
+}
+
+.tagged a:hover {
+	font-weight: bold;
+	background: white;
+	color: [[ColorPalette::PrimaryDark]]; 
+}
+
+/* for following nui */
+#popup .siteIcon {
+	height: 25px;
+}
+
+#popup {
+	background-color: [[ColorPalette::TertiaryPale]];
+}
+
+.confirmationPopup, .followList {
+	font-size: 0.7em;
+	padding: 1em;
+	border: solid 1px #000;
+}
+
+.followList .listTitle {
+	text-decoration: underline;
+}
+
+#popup .followTiddlersList a {
+	display: inline;
+	padding: 0;
+}
+
+#popup li a {
+	color: [[ColorPalette::PrimaryMid]];
+	font-weight: bold;
+}
+
+#popup li a:hover {
+	color: [[ColorPalette::PrimaryMid]];
+	background: none;
+}
+
+#popup li.listTitle {
+	border-bottom: 1px solid #000;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#popup.followList {
+	margin-left: 50px;
+	margin-top: -30px;
+}
+
+.followTiddlersList .label {
+	display: block;
+	left: 10px;
+	top: 0px;
+	line-height: 16px;
+	position: relative;
+}
+
+#popup .followTiddlersList .siteIcon{
+	height: auto;
+}
+
+#popup .followTiddlersList li{
+	clear: both;
+	display: block;
+	height: 48px;
+	margin-bottom: 8px;
+	position: relative;
+}
+
+#popup .followTiddlersList a{
+	display: inline;
+}
+
+.heading {
+	left: 0;
+	margin-bottom: 3em;
+	position: relative;
+	top: 3em;
+	position: relative;
+}
+
+.followButton a:hover {
+	background: none;
+	color: black;
+}
+
+.followPlaceHolder {
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+}
+
+.followButton {
+	cursor: pointer;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	background: none repeat scroll 0 0 #CCCCCC;
+	color: red;
+	min-width: 2em;
+	height: 1em;
+	text-align: center;
+	padding: 0.4em;
+	float: left;
+}
+
+.followButtonX:before {
+	content: "\00a0";
+	display: block; /* reduce the damage in FF3.0 */
+	position: absolute;
+	bottom: -0.2em;
+	left: 0.1em;
+	width: 0;
+	height: 0;
+	border-width: 0.5em 0.2em 0 0.6em;
+	border-style: solid;
+	border-color: #ccc transparent;
+}
+
+.replyLink {
+	margin-left: 1em;
+	font-size: 80%;
+	opacity: 0.3;
+}
+
+.selected .replyLink {
+	opacity: 1;
+}
+
+
+.calendar {
+	margin-top: 1em;
+	cursor: pointer;
+
+/* 	if calendar is to wide, enable next line */
+/*	margin: 1em 1.5em;  */	
+}
+
+.calendar:hover {
+	opacity: 0.8;
+}
+
+.calendar .month {
+	color: [[ColorPalette::PrimaryPale]];
+	font-size: 1.2em;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	border-top: solid 1px black;
+	text-align: center;
+	padding: 2px;
+}
+
+.calendar .date {
+	color: [[ColorPalette::PrimaryDark]];
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	border: solid 1px black;
+}
+
+.calendar .time {
+	font-size: 0.7em;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+	text-align: center;
+}
+
+.toolbar svg {
+	height: 20pt;
+	width: 20pt;
+}
+
+.originButton,
+.modifierIcon .label {
+	color: [[ColorPalette::TertiaryDark]];
+	font-size: 0.8em;
+	text-align: center;
+	display: block;
+}
+
+.modifierIcon {
+	background: [[ColorPalette::PrimaryLight]];
+	margin-right: 1em;
+}
+
+.tiddler {
+	overflow: hidden;	/* clear floats */
+}
+
+.tiddler .viewer {
+	margin: 0;
+	line-height: normal;
+	padding-top: 0;
+}
+
+.tiddler .title {
+	font-size: 1.7em;
+	display: block;
+	margin-bottom: 0.4em;
+	border-bottom: 0.05em solid [[ColorPalette: :PrimaryDark]];
+	padding-top: 0;
+	word-wrap: break-word;
+}
+
+.spaceIcon img {
+	height: 30px;
+}
+
+.siteIcon .label {
+	color: [[ColorPalette: :TertiaryDark]];
+}
+
+.siteIcon {
+	text-align: center;
+}
+
+.siteIcon img {
+	height: 30px;
+	width: 30px;
+}
+
+.tiddler .spaceSiteIcon {
+	margin: 0;
+	cursor: pointer;
+}
+
+.followButton a {
+	color: red;
+}
+
+.tiddler {
+	position: relative;
+	-moz-box-shadow: 2px 2px 8px black;
+	-webkit-box-shadow: 2px 2px 8px black;
+	filter: progid: DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=3);
+	box-shadow: 2px 2px 8px black;
+	background-color: [[ColorPalette::PrimaryLight]];
+	margin-bottom: 2em;
+	padding: 0;
+}
+
+
+.tiddler .subtitle {
+	font-size: 0.8em;
+	margin-top: 0.2em;
+}
+
+.external .spaceSiteIcon a:hover {
+	background-color: #8BD69E;
+}
+
+.privateNotPublic .spaceSiteIcon a:hover,
+.private .spaceSiteIcon a:hover {
+	background-color: #DE85B3;
+}
+
+.privateAndPublic .spaceSiteIcon a:hover,
+.public .spaceSiteIcon a:hover {
+	background-color: #BBE7FD;
+}
+
+.tiddler .toolbar .button {
+	border: none;
+	display: inline-block;
+}
+
+/*-- reset the button effect --*/
+.tiddler .toolbar a:hover {
+	background: none;
+	border: none;
+}
+
+/**
+.tiddler .button.command_closeTiddler {
+	float: right;
+}
+**/
+
+.tiddler .tagged .listTitle {
+	display: none;
+}
+
+.revButton {
+	float: right;
+}
+
+/*}}}*/</pre>
+</div>

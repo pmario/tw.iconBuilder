@@ -1,0 +1,17 @@
+title: SvgEvent_Animations
+modifier: pmario
+created: 20100727165404
+modified: 20100918160603
+tags: excludeLists fxPlugins systemConfig
+server.bag: fxplugins_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;fxplugins_public/SvgEvent_Animations/53373;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: pmario
+_hash: 2bf258e34766357a751fc0702010e03ca92abb46
+server.page.revision: 53373
+server.title: SvgEvent_Animations
+server.content-type: 
+server.permissions: read, write, create, delete
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/fxplugins_public

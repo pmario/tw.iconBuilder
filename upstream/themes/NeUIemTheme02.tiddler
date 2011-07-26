@@ -1,0 +1,36 @@
+<div title="NeUIemTheme02" modifier="pmario" created="20100818175607" modified="20101110190332" tags="systemTheme" server.bag="neui-em_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;neui-em_public/NeUIemTheme02/107172;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="d2d750a5ffff7cf875b0ec308c896ebf400c9712" server.page.revision="107172" server.title="NeUIemTheme02" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/neui-em_public">
+<pre>|''Name:''|[[NeUIemTheme02]]|
+|''Description:''|Changes the right sidebar|
+|''Generator:''|[[TW FreeStyle|http://FreeStyle.tiddlyspot.com]]|
+|''Gen.Description:''|Handcrafted by @pmario|
+|''PageTemplate:''|NeUIemTheme##PageTemplate|
+|''ViewTemplate:''|NeUIemTheme##ViewTemplate|
+|''EditTemplate:''|NeUIemTheme##EditTemplate|
+|''RevisionTemplate:''|NeUIemTheme##RevisionTemplate|
+|''StyleSheet:''|##StyleSheet|
+
+!StyleSheet
+/*{{{*/
+
+[[NeUIemTheme##StyleSheet]]
+
+#sidebarTabs .tabset{
+	float: left;
+	width: 1em;
+	padding: 0;
+}
+
+#sidebarTabs .tabset:hover{
+	width: auto;
+	position:absolute;
+	right: 86%;
+	padding-right: 8%;
+	z-index: 10;
+}
+
+#sidebarTabs .tabset .tab{
+	overflow: hidden;
+	display: block;
+}
+/*}}}*/</pre>
+</div>

@@ -1,0 +1,18 @@
+title: RevisionsCommandEditSaveHj
+modifier: pmario
+created: 20100727174533
+modified: 20100816200125
+tags: systemConfig
+server.bag: revision-command-hack_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;revision-command-hack_public/RevisionsCommandEditSaveHj/126603;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: pmario
+_hash: f550461a93d58fdfa0e1bec29ac761fa5a5bb489
+revision.text: 
+server.page.revision: 126603
+server.title: RevisionsCommandEditSaveHj
+server.content-type: 
+server.permissions: read, write, create, delete
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/revision-command-hack_public

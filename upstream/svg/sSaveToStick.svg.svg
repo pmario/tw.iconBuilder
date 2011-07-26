@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns="http://www.w3.org/2000/svg" height="29pt" width="29pt" version="1.0" viewBox="13 43 29 29">
+ <g id="iconSymbol" stroke-linejoin="round" stroke="#4d4d4d" fill="none">
+  <g transform="matrix(-0.73523538,0,0,-0.73523538,69.181553,92.375752)">
+   <rect height="5.8256" width="12.871" y="51.48" x="46.337" stroke-width="2.7202"/>
+   <rect height="1.2154" width="5.1752" y="53.876" x="61.518" stroke-width="3.0741"/>
+  </g>
+  <path d="m28.002,57.684,4.0415,2.6036-2.4049,0,0,5.5655-3.5119,0,0-5.5655-2.1663,0,4.0415-2.6036z" stroke-linecap="butt" stroke-width="1.69878793"/>
+ </g>
+</svg>

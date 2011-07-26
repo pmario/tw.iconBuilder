@@ -42,17 +42,17 @@ upstream-html:
 
 # below are the tools
 
-names.list: clean-list status.list
+names.list: clean-list status-list
 	@echo ""
 	@echo "# names.list: IMPORTANT - Filenames with spaces can't be handled!"
 
 	git add . 
 	git diff-index --name-only HEAD > names.list	
 	
-status:	status.list
+status: status-list
 	cat status.list
 
-status.list:
+status-list:
 	git status > status.list
 
 plugins-list: names.list

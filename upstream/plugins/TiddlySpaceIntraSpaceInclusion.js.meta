@@ -1,0 +1,17 @@
+title: TiddlySpaceIntraSpaceInclusion
+modifier: jon
+created: 20110715090356
+modified: 20110718073033
+tags: excludeLists excludeSearch systemConfig
+server.bag: following_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;following_public/TiddlySpaceIntraSpaceInclusion/463441;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: jon
+_hash: ed1931bb2dc19676afa72b6d5dbeb3fecbf216fe
+server.page.revision: 463441
+server.title: TiddlySpaceIntraSpaceInclusion
+server.content-type: 
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/following_public

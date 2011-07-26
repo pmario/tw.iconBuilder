@@ -1,0 +1,20 @@
+<div title="How to use the activity feed" modifier="jon" created="20100930083336" modified="20101004124548" tags="excludeLists excludeMissing tips" server.bag="following_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;following_public/How%20to%20use%20the%20activity%20feed/49948;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="jon" _hash="531f97b615c5f0c81df63a44ee91f28d2a586f25" server.page.revision="49948" server.title="How to use the activity feed" server.content-type="" server.permissions="read" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/following_public">
+<pre>The activity feed is best for sharing opinions on something. To make best use of it create a tiddler and tag it with a username you would like to share thought with on this subject.
+
+For instance I might create a tiddler called [[Animal I'd least like to be stuck in a cage with]]. I might say 
+<<<
+I would least like to be stuck in a cage with a lion as it could tear me apart amongst other reasons.
+<<<
+I then tag it @matias to get @matias's attention to see what he think. This flags it in @matias's activity feed and tells him that I am interested in his thoughts. Of course @matias can ignore it, and if he is not using the activity feed feature he may not even know about the message. If he wants to respond all @matias then has to do is create his own tiddler [[Animal I'd least like to be stuck in a cage with]]. Matias might say
+<<<
+A lion would be not as bad as a great white shark... not only would you be stuck in a cage with it but you would  be underwater with a likelihood of drowning to increase suffering.
+<<<
+It's not over yet.. now I can refine my original post with the thoughts of Matias. I might think mm, @matias has got a point there with the water, but I think a crocodile would more likely eat me then a great white shark and I fancy my chances with the great white.
+
+I then update my tiddler to say 
+<<<
+I would least like to be stuck in a cage with a crocodile as it could tear me apart amongst other reasons. A lion would also be scary however I'm not a good swimmer so would be less likely to be able to make an escape. A crocodile is worse than a shark as shark attacks on humans are rare, so I'd fancy my chances.
+<<<
+
+We continue replying this way revising our tiddlers till the process finishes and I have a tiddler which clearly explains the [[Animal I'd least like to be stuck in a cage with]] with very detailed reasoning.</pre>
+</div>

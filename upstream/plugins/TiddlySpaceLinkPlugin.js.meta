@@ -1,0 +1,17 @@
+title: TiddlySpaceLinkPlugin
+modifier: psd
+created: 20110719144250
+modified: 20110719144250
+tags: excludeLists excludeSearch systemConfig
+server.bag: system-plugins_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlySpaceLinkPlugin/466915;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: psd
+_hash: c0c69ca0fa86e8edb82a52dbef5242ef1358e353
+server.page.revision: 466915
+server.title: TiddlySpaceLinkPlugin
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/system-plugins_public

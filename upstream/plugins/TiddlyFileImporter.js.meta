@@ -1,0 +1,17 @@
+title: TiddlyFileImporter
+modifier: None
+created: 20110719144250
+modified: 20110719144250
+tags: excludeLists excludeSearch systemConfig
+server.bag: system-plugins_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlyFileImporter/466913;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: None
+_hash: 06060a7900abb6620535e3923abba825e5c74424
+server.page.revision: 466913
+server.title: TiddlyFileImporter
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/system-plugins_public

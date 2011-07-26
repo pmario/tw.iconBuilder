@@ -1,0 +1,43 @@
+<div title="tfgPermaview.svg" modifier="pmario" created="20100729091638" modified="20110721142126" tags="icon iconFx set.ToggleFgJs" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/tfgPermaview.svg/471005;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="9ab7750105eb4b75a14a1ecb1ea457b84b78734c" revision.text="" server.page.revision="471005" server.title="tfgPermaview.svg" server.content-type="image/svg+xml" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="29pt" viewBox="13 43 29 29" width="29pt" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onclick="if(jQuery) jQuery(document).trigger('cPermaview', {elem:this, comp:{menue:1}})" onmousedown="if(jQuery) jQuery(document).trigger('cSmaller', {elem:this, comp:{animations:1}})" onmouseup="if(jQuery) jQuery(document).trigger('cResize', {elem:this, comp:{animations:1}})">
+ <metadata id="metadata14">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>http://creativecommons.org/licenses/by-nc-sa/3.0/at/</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:source>http://iconbuilder.tiddlyspace.com</dc:source>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Mario Pietsch</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs_bBgTrans">
+ <linearGradient id="linearGradient001" y2="27.646" gradientUnits="userSpaceOnUse" x2="-45.8" y1="27.646" x1="-57.66">
+   <stop id="stop1" stop-color="#CC9900" offset="0"/>
+   <stop id="stop2" stop-color="#E8D18B" offset="0.66462"/>
+   <stop id="stop3" stop-color="#CC9900" offset="1"/>
+  </linearGradient></defs>
+<g id="icon">
+ <rect id="iconBG" stroke="#696969" ry="4.1663" transform="matrix(0, -1, 1, 0, 0, 0)" height="25" width="25" y="15.167" x="-70.116" stroke-width="1.2" fill="none" class="showBG"/>
+ <rect id="iconFG" stroke-width="0" fill-rule="evenodd" ry="2.3755" transform="matrix(0, -1, 1, 0, 0, 0)" width="22" y="16.646" x="-68.6" height="22" fill="url(#linearGradient001)" class="showFG"/>
+<g id="iconSymbol" transform="matrix(0.953481, 0, 0, 1, 1.40457, -1.25541)" stroke="#4d4d4d" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="4" fill="none" class="showSY">
+  <path stroke-linejoin="round" d="m48.047,13.391c0,1.7772-1.4407,3.2179-3.2179,3.2179s-3.2179-1.4407-3.2179-3.2179,1.4407-3.2179,3.2179-3.2179,3.2179,1.4407,3.2179,3.2179z" transform="matrix(0.968368, 0, 0, 0.968368, -21.046, 48.9566)"/>
+  <path stroke-linejoin="round" d="m48.047,13.391c0,1.7772-1.4407,3.2179-3.2179,3.2179s-3.2179-1.4407-3.2179-3.2179,1.4407-3.2179,3.2179-3.2179,3.2179,1.4407,3.2179,3.2179z" transform="matrix(0.968368, 0, 0, 0.968368, -11.8582, 49.1342)"/>
+  <path stroke-linejoin="miter" d="M20.797,59.179,25.356,53.321"/>
+  <path stroke-linejoin="miter" d="m34.729,61.665,0.971-8.0674"/>
+  <path stroke-linejoin="miter" d="M14.536,21.27,20.251,21.048" transform="matrix(0.8, 0, 0, 0.8, 13, 43)" stroke-width="2"/>
+ </g>
+ <rect id="overlay" stroke="#696969" opacity="0" ry="4.1663" transform="matrix(0, -1, 1, 0, 0, 0)" height="25" width="25" y="15.167" x="-70.116" stroke-width="1.2" class="showOV"/>
+</g>
+</svg></pre>
+</div>

@@ -1,0 +1,17 @@
+title: TiddlySpacePublishingCommands
+modifier: jon
+created: 20110719144250
+modified: 20110719144250
+tags: excludeLists excludeSearch systemConfig
+server.bag: system-plugins_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlySpacePublishingCommands/466916;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: jon
+_hash: d38da0ee80a7dc114a17466600f9430fa2a962bb
+server.page.revision: 466916
+server.title: TiddlySpacePublishingCommands
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/system-plugins_public

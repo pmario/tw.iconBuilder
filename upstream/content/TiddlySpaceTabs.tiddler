@@ -1,0 +1,13 @@
+<div title="TiddlySpaceTabs" modifier="osmosoft" created="20110719144339" tags="excludeLists excludeSearch" server.bag="system-theme_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;system-theme_public/TiddlySpaceTabs/466996;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="osmosoft" _hash="7bc357188d6afd65d6724a670b0052c0488766a4" server.page.revision="466996" server.title="TiddlySpaceTabs" server.content-type="" server.permissions="read" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/system-theme_public">
+<pre>!Spaces
+<<groupBy server.bag>>
+
+!Private
+<<list filter [is[private]]>>
+
+!Public
+<<list filter [is[public]]>>
+
+!Drafts
+<<list filter [is[draft]]>></pre>
+</div>

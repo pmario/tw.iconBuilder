@@ -1,0 +1,48 @@
+<div title="friends" modifier="jon" created="20110628164406" modified="20110723071517" tags="app excludeLists excludeSearch" server.bag="following_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;following_public/friends/474141;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="jon" _hash="9ecc47456935c8e0f717cebbd65bcc8d454639a7" server.page.revision="474141" server.title="friends" tiddler.source="jon_public" server.content-type="text/html" server.permissions="read" server.recipe="iconbuilder_private" server.type="tiddlyweb" description="" summary="A tool for managing friends in TiddlySpace. Follow users, unfollow users and see what those users are up to." server.workspace="bags/following_public">
+<pre><html>
+<head>
+	<title>Friends</title>
+	<style type='text/css'>
+		ul {
+			list-style: none;
+		}
+		ul .friend {
+			border-bottom: solid 1px black;
+		}
+		ul .friend .tiddler {
+			margin-left: 10px;
+			margin-bottom: 30px;
+			padding: 10px;
+			border: dotted 2px #CCC;
+			color: #006100;
+		}
+		textarea {
+			width: 100%;
+			height: 150px;
+		}
+		.friend h2 {
+			display: inline-block;
+		}
+		button {
+			display: inline-block;
+		}
+		.inactiveFriend {
+			background-color: #ccc;
+			opacity: 0.1;
+		}
+	</style>
+	<link rel="stylesheet" href="/HtmlCss" type="text/css">
+</head>
+<body>
+<h1>Your friends</h1>
+<noscript>
+	javascript is required to see friend's activity
+</noscript>
+<div id='friends'>loading...</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://takenote.tiddlyspace.com/bags/takenote_public/tiddlers/jquery-json.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://takenote.tiddlyspace.com/bags/takenote_public/tiddlers/chrjs.js" type="text/javascript" charset="utf-8"></script>
+<script type='text/javascript' src='/friendjs'></script>
+</body>
+</html></pre>
+</div>

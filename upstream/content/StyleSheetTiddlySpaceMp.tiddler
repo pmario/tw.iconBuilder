@@ -1,0 +1,57 @@
+<div title="StyleSheetTiddlySpaceMp" modifier="pmario" created="20100806192303" modified="20100817153646" tags="excludeLists" server.bag="neui-em_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;neui-em_public/StyleSheetTiddlySpaceMp/107310;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="b01f13dfe3b05f0427ecaf4dc24cf1b54fc29b7b" server.page.revision="107310" server.title="StyleSheetTiddlySpaceMp" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/neui-em_public">
+<pre>/*{{{*/
+body {
+	font-size: 1.0em;
+	font-family: helvetica, arial, sans-serif;
+	background-color: [[ColorPalette::Background]];
+}
+
+#displayArea {
+	float: left;		/*-- new for emastic --*/		
+	padding: 0;		/*-- new for emastic --*/
+	margin: 0;		/*-- new for emastic --*/
+}
+
+#tiddlerDisplay {
+/*	margin: 1em 0.5em;*/
+}
+
+.public {
+	border-color: #C7EAFF;
+}
+
+.private {
+	border-color: #FFCAE9;
+}
+
+.revisionCloak {
+	position: absolute;
+	position: fixed !important;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	background-color: black;
+}
+
+/* fixing h1-h6 margin-top if it is first child */
+h1:first-child, h2:first-child, h3:first-child,
+h4:first-child, h5:first-child, h6:first-child,
+
+ol:first-child, ul:first-child {
+	margin-top: .3em;
+}
+
+
+[[StyleSheetHeaderMp]]
+[[StyleSheetMenuBarMp]]
+[[StyleSheetSideBarMp]]
+[[StyleSheetTiddlerMp]]
+[[StyleSheetBackstagePanels]]
+/*}}}*/</pre>
+</div>

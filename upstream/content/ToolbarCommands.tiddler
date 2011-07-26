@@ -1,0 +1,5 @@
+<div title="ToolbarCommands" modifier="pmario" created="20101124160132" modified="20110725190012" tags="excludeLists" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/ToolbarCommands/476095;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="70a2a8647bdc2c82e795aa49bc8967e245f37b35" revision.text="" server.page.revision="476095" server.title="ToolbarCommands" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>|~ViewToolbar|+editTiddler tagSearch cloneTiddler newTagged saveDraft closeTiddler > deleteTiddler fields revisions syncing permalink references jump changeToPublic changeToPrivate closeOthers closeTiddler refreshTiddler <|
+|~EditToolbar|+saveTiddler saveDraft savePublicTiddler -cancelTiddler deleteTiddler|
+|~RevisionToolbar|fields revert >|</pre>
+</div>

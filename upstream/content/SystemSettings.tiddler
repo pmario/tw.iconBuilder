@@ -1,0 +1,4 @@
+<div title="SystemSettings" modifier="pmario" created="20101209221524" modified="20101219150042" tags="excludeLists" server.bag="iconbuilder_private" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_private/SystemSettings/70274;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="8c0bd804f3b8e0c397b386d92ec32664dd77e269" revision.text="" server.page.revision="70274" server.title="SystemSettings" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_private">
+<pre>chkPrivateMode: true
+chkInsertTabs: true</pre>
+</div>

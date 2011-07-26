@@ -1,0 +1,17 @@
+title: TiddlySpaceCloneCommand
+modifier: osmosoft
+created: 20110719144323
+modified: 20110719144323
+tags: excludeLists excludeSearch systemConfig
+server.bag: tiddlyspace
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;tiddlyspace/TiddlySpaceCloneCommand/466976;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: osmosoft
+_hash: b1c0765985038118ce4c592ee66076a830848d53
+server.page.revision: 466976
+server.title: TiddlySpaceCloneCommand
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/tiddlyspace

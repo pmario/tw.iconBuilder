@@ -1,3 +1,13 @@
-tiddler: MainMenu.tid
+tiddler: ViewTemplate.tiddler
+tiddler: MainMenu.tiddler
+tiddler: StyleSheet.tiddler
 tiddler: DefaultTiddlers.tiddler
-
+tiddler: ColorPalette.tiddler
+tiddler: OptionsPanel.tiddler
+tiddler: SideBarOptions.tiddler
+tiddler: SiteSubtitle.tiddler
+tiddler: SiteTitle.tiddler
+tiddler: EditTemplate.tiddler
+tiddler: GettingStarted.tiddler
+tiddler: MarkupPreHead.tiddler
+tiddler: PageTemplate.tiddler

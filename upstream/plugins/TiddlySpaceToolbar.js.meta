@@ -1,0 +1,17 @@
+title: TiddlySpaceToolbar
+modifier: osmosoft
+created: 20110719144250
+modified: 20110719144250
+tags: excludeLists excludeSearch systemConfig
+server.bag: system-plugins_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlySpaceToolbar/466921;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: osmosoft
+_hash: f1d6038be5d1ecd8d107d604b0f0dce76bc901da
+server.page.revision: 466921
+server.title: TiddlySpaceToolbar
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/system-plugins_public

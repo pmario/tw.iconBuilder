@@ -1,0 +1,65 @@
+<div title="GradientColor Modificator" modifier="pmario" created="20100728230628" modified="201008191921" s-order="3" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/GradientColor%20Modificator/70331;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="ae5621b416ac5f7d6fdff366bd048b7ecef29144" revision.text="" server.page.revision="70331" server.title="GradientColor Modificator" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>!Usage
+*Select an y ''*.svg'' tiddler tagged "icon"
+*click show icon
+*open slider ~ColorWheel or ~ColorBlender to get the right colors.
+*update stop1 to stop3 (manual copy/paste :)
+**stop1 and stop3 are the main color
+**stop2 is the highlighted color. Color format needs to be #aabbcc!<br>
+*generate new icon will modify the actual svg and save a svg (modified) 
+ 
+{{dp25{
+stop1: <<option txtStop1>> 
+stop2: <<option txtStop2>> 
+stop3: <<option txtStop3>> }}}<<select =txtSvgName rows:10 "=icon" >> <<image {{config.options.txtSvgName}} 100 100 >>  <<image {{config.options.txtSvgName + " (modified)"}} 100 100 >>  <<tiddler RefreshTiddler with: 'show icon'>>
+
+Click <script label="generate new Icon!">
+(function($) {
+
+var svgName = (config.options.txtSvgName)? config.options.txtSvgName : "";
+if (svgName == "") return alert("No svg tiddler selected!");
+
+var svgModified = " (modified)";
+
+var XML = store.getTiddlerText(svgName);
+
+var parser = new DOMParser();
+var xmlobject = parser.parseFromString(XML, "text/xml");
+
+var svg= $(xmlobject);
+
+var st_1 = config.options.txtStop1 || 'red';
+var st_2 = config.options.txtStop2 || 'blue';
+var st_3 = config.options.txtStop3 || 'red';
+
+$(svg).find('#stop1').attr("stop-color", st_1);
+$(svg).find('#stop2').attr("stop-color", st_2);
+$(svg).find('#stop3').attr("stop-color", st_3);
+
+var text = new XMLSerializer().serializeToString(xmlobject);
+
+var tid = store.getTiddler(svgName + svgModified);
+	if(!tid) {
+		tid = new Tiddler(svgName + svgModified);
+		tid.creator ='iconbuilder.tiddlyspace.com';
+	}
+	tid.fields = merge({}, config.defaultCustomFields);
+	tid.tags = ['modified'];
+	tid.modifier ='GradientModifier';
+	tid.fields['server.content-type'] = '';	
+	tid.text = text;
+
+	// save the color palette in tid
+	store.saveTiddler(tid.title, tid.title, tid.text, tid.modifier, tid.modified, tid.tags, tid.fields, false, tid.created, tid.creator);
+	autoSaveChanges(null, [tid]);
+
+	var here=story.findContainingTiddler(place);
+	if (here) story.refreshTiddler(here.getAttribute('tiddler'),null,true);
+	return false;
+})(jQuery);
+
+</script>
+<br>
+<<slider chkWheel ColorWheel "ColorWheel ...">>
+<<slider chkBlender ColorBlender "ColorBlender ...">></pre>
+</div>

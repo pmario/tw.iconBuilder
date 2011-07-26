@@ -1,0 +1,17 @@
+title: ServerSideSavingPlugin
+modifier: FND
+created: 20110719144259
+modified: 20110719144259
+tags: excludeLists excludeSearch systemConfig
+server.bag: system
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;system/ServerSideSavingPlugin/466927;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: FND
+_hash: d72cde071d926d9c66939444817d7e8621d24d9c
+server.page.revision: 466927
+server.title: ServerSideSavingPlugin
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/system

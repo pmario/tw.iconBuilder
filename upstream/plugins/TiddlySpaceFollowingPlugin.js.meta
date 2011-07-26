@@ -1,0 +1,18 @@
+title: TiddlySpaceFollowingPlugin
+modifier: jon
+created: 20110715133436
+modified: 20110718083010
+tags: systemConfig excludeSearch excludeLists
+server.bag: following_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;following_public/TiddlySpaceFollowingPlugin/464167;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: jon
+_hash: 80c9fa480ad75e4f74f84fbdccbac5c343586aad
+server.page.revision: 464167
+server.title: TiddlySpaceFollowingPlugin
+tiddler.source: system-plugins_public
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/following_public

@@ -1,0 +1,26 @@
+<div title="Layout" modifier="pmario" created="20110725181651" modified="20110725181843" tags="excludeLists topMenu" server.bag="neui-em_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;neui-em_public/Layout/476006;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="6ed21745f9d44df40ce21837f9791c11e53e8d3a" server.page.revision="476006" server.title="Layout" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/neui-em_public">
+<pre>|WindowTitle|>|>||
+|>|>| SiteTitle| [[sidebarSearch]] |
+|>|>| SiteSubtitle||
+|>|>|TopMenu edit: "new tiddler  new journal ◄ ►" ... SideBarOptions  »  OptionsPanel||
+|MainMenu| DefaultTiddlers| (hidden content) CSidebarTools||
+|~| ToolbarCommands| CSideBarTabs||
+|~|| SideBarTabs||
+|||||
+|ColorPalette | FontPalette|||
+
+*The actual theme is set in [[zzConfig]] tiddler
+*If you want to know how the MainMenu works have a look at http://apm-plugins.tiddlyspot.com/#StylingPackage.
+**If you don't need this mechanism at the moment, overwrite it.
+**You will remember it, when automatic TopMenu and MainMenu with drag and drop sorting would be nice ;)
+
+* Have a look at the actual ~ColorPalette with ViewColorPalette
+
+* If you don't like the color scheme click <<RandomColorPaletteButton>> to generate a new random color scheme.
+* Upload a SiteIcon. A SiteIcon gives your space an identity to make it recognisable to others. A good site icon will be square and at least 48*48 pixels size.
+<<binaryUploadPublic title:SiteIcon>>
+* [[SiteTitle]] & [[SiteSubtitle]]: The title and subtitle of the site, as shown above (after saving, they will also appear in the browser title bar)
+* [[MainMenu]]: The menu (usually on the left)
+* [[DefaultTiddlers]]: Contains the names of the tiddlers that you want to appear when the TiddlySpace is opened
+* Many features of TiddlySpace are accessed via the backstage bar located at the top of the page. You can toggle it on or off using the button in the top right corner of the screen.</pre>
+</div>

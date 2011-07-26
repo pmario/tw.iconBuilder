@@ -1,0 +1,18 @@
+<div title="SideBarTabs" modifier="jon" created="20100917110952" modified="20100918080423" tags="excludeLists" server.bag="following_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;following_public/SideBarTabs/49974;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="jon" _hash="9ade4d464a7cc4cde2d410f3bd2567c5e878cc74" server.page.revision="49974" server.title="SideBarTabs" server.content-type="" server.permissions="read" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/following_public">
+<pre><<tabs 
+	txtMainTab 
+	"Recent" "Recently edited tiddlers" TabTimeline
+	"All" "All tiddlers" TabAll
+	"Public" "All public tiddlers" [[TiddlySpaceTabs##Public]]
+	"Private" "All private tiddlers" [[TiddlySpaceTabs##Private]]
+	"Drafts" "All draft tiddlers" [[TiddlySpaceTabs##Drafts]]
+	"Tags" "All tags" TabTags
+	"Spaces" "Tiddlers grouped by space" [[TiddlySpaceTabs##Spaces]]
+	"Activity" "What people you are following are up to" TabFollowing##Activity
+        "Following" "People you are following" TabFollowing##Following
+        "Followers" "People who are following you" TabFollowing##Followers
+	"Missing" "Missing tiddlers" TabMoreMissing
+	"Orphans" "Orphaned tiddlers" TabMoreOrphans
+	"Shadows" "Shadowed tiddlers" TabMoreShadowed
+>></pre>
+</div>

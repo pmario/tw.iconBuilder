@@ -1,0 +1,32 @@
+<div title="NeUIemTheme03" modifier="pmario" created="20100818183036" modified="20101110190314" tags="systemTheme" server.bag="neui-em_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;neui-em_public/NeUIemTheme03/107176;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="66dcdd2b1bfb88c644defcedf13271c49186165c" server.page.revision="107176" server.title="NeUIemTheme03" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/neui-em_public">
+<pre>|''Name:''|[[NeUIemTheme03]]|
+|''Description:''|Changes the right sidebar|
+|''Generator:''|[[TW FreeStyle|http://FreeStyle.tiddlyspot.com]]|
+|''Gen.Description:''|Handcrafted by @pmario|
+|''PageTemplate:''|NeUIemTheme##PageTemplate|
+|''ViewTemplate:''|NeUIemTheme##ViewTemplate|
+|''EditTemplate:''|NeUIemTheme##EditTemplate|
+|''RevisionTemplate:''|NeUIemTheme##RevisionTemplate|
+|''StyleSheet:''|##StyleSheet|
+
+!StyleSheet
+/*{{{*/
+
+[[NeUIemTheme##StyleSheet]]
+
+#sidebarTabs .tabset{
+	float: right;
+	width: 1em;
+	padding: 0;
+}
+
+#sidebarTabs .tabset:hover{
+	width: auto;
+}
+
+#sidebarTabs .tabset .tab{
+	overflow: hidden;
+	display: block;
+}
+/*}}}*/</pre>
+</div>

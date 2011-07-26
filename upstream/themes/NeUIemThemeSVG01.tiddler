@@ -1,0 +1,51 @@
+<div title="NeUIemThemeSVG01" modifier="pmario" created="20101203234919" tags="systemTheme" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/NeUIemThemeSVG01/70482;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="b0ae690c99f3ef0d646ee348643c55828979bbb0" revision.text="" server.page.revision="70482" server.title="NeUIemThemeSVG01" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>|''Name:''|[[NeUIemThemeSVG01]]|
+|''Description:''|Changes the right sidebar|
+|''Generator:''|[[TW FreeStyle|http://FreeStyle.tiddlyspot.com]]|
+|''Gen.Description:''|Handcrafted by @pmario|
+|''PageTemplate:''|NeUIemTheme##PageTemplate|
+|''ViewTemplate:''|NeUIemTheme##ViewTemplate|
+|''EditTemplate:''|NeUIemTheme##EditTemplate|
+|''RevisionTemplate:''|NeUIemTheme##RevisionTemplate|
+|''StyleSheet:''|##StyleSheet|
+
+!StyleSheet
+/*{{{*/
+
+[[NeUIemTheme##StyleSheet]]
+
+#sidebarTabs .tabset{
+	float: right;
+	width: 1em;
+	padding: 0;
+}
+
+#sidebarTabs .tabset:hover{
+	width: auto;
+}
+
+#sidebarTabs .tabset .tab{
+	overflow: hidden;
+	display: block;
+}
+
+/*=========================*/
+/* needed for set.tBg???   */
+/*=========================*/
+.image .showFG {
+	opacity: 1;
+}
+
+.image .showBG {
+	opacity: 0;
+}
+
+.image:hover .showBG {
+	opacity: 1;
+}
+
+
+
+
+/*}}}*/</pre>
+</div>

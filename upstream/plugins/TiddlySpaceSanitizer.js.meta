@@ -1,0 +1,17 @@
+title: TiddlySpaceSanitizer
+modifier: osmosoft
+created: 20110719144250
+modified: 20110719144250
+tags: excludeLists excludeSearch systemConfig
+server.bag: system-plugins_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;system-plugins_public/TiddlySpaceSanitizer/466919;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: osmosoft
+_hash: 4e7490026802a699cc23155cd88b09a2cce3fb87
+server.page.revision: 466919
+server.title: TiddlySpaceSanitizer
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/system-plugins_public

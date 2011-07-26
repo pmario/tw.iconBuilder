@@ -1,0 +1,6 @@
+<div title="toolbarConfUseDefault" modifier="pmario" created="20101203153013" modified="20110721153206" tags="template" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/toolbarConfUseDefault/471258;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="e271539acf99eecf4fdfcb650074791e9b84056b" revision.text="" server.page.revision="471258" server.title="toolbarConfUseDefault" server.content-type="text/plain" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>[[ {	"icon" : "%0",
+	"elems" : { /** bg **/ "fg":"%2", "sy":"%3"}
+} ]]
+</pre>
+</div>

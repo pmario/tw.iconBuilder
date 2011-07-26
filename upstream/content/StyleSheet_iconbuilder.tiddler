@@ -1,0 +1,30 @@
+<div title="StyleSheet_iconbuilder" modifier="pmario" created="20100807212408" modified="201008191921" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/StyleSheet_iconbuilder/70542;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="e16c88efd0f57efd58acb1f4dc46665f6bbb6590" server.page.revision="70542" server.title="StyleSheet_iconbuilder" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>/*{{{*/
+/*-- used for icon hover effect --*/
+.svgIcon .showOnHover:hover {
+	opacity: 1;
+	stroke: black;
+}
+
+.svgIcon .overlayOnHover:hover {
+	opacity: 0.6;
+}
+
+/*-- reset the button effect --*/
+.toolbar svg {
+	height: 25px;
+	width: 25px;
+}
+
+.tiddler .toolbar a:hover {
+	background: none;
+	border: none;
+}
+
+.gray {
+	background: gray;
+	display: inline-block;
+}
+/*}}}*/
+</pre>
+</div>

@@ -1,0 +1,18 @@
+title: RevisionsCommandPlugin
+modifier: pmario
+created: 20100729171944
+modified: 20101125191326
+tags: systemConfig
+server.bag: revision-command-hack_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;revision-command-hack_public/RevisionsCommandPlugin/126607;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: pmario
+_hash: dad6ca9b89e6c503ad3430a38125fadf6f0f80f6
+revision.text: V0.3.3 MP
+server.page.revision: 126607
+server.title: RevisionsCommandPlugin
+server.content-type: 
+server.permissions: read, write, create, delete
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/revision-command-hack_public

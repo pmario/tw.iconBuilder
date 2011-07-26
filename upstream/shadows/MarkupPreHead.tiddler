@@ -1,0 +1,7 @@
+<div title="MarkupPreHead" modifier="pmario" created="20101103235024" tags="excludeLists" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/MarkupPreHead/70481;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="f299c4ec8818d3cb63e5141c135a3352b89d4bf2" server.page.revision="70481" server.title="MarkupPreHead" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre><!--{{{-->
+<link rel="shortcut icon" href="/recipes/iconbuilder_public/tiddlers/favicon.ico" />
+<link href="/bags/iconbuilder_public/tiddlers.atom" rel="alternate"
+	type="application/atom+xml" title="iconbuilder's public feed" />
+<!--}}}--></pre>
+</div>

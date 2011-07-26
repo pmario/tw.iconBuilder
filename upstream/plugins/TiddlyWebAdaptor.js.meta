@@ -1,0 +1,17 @@
+title: TiddlyWebAdaptor
+modifier: FND
+created: 200811260000
+modified: 200811260000
+tags: excludeLists excludeSearch systemConfig
+server.bag: system
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;system/TiddlyWebAdaptor/466928;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: FND
+_hash: a177f76133b2bbbca14243a699005c7cdb56f2bf
+server.page.revision: 466928
+server.title: TiddlyWebAdaptor
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/system

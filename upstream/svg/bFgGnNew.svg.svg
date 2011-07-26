@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="29pt" width="29pt" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="13 43 29 29" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs6">
+  <title id="title26">Layer 1</title>
+  <title id="title22">Canvas 1</title>
+  <linearGradient id="linearGradient3637" y2="27.646" gradientUnits="userSpaceOnUse" x2="-45.8" y1="27.646" x1="-57.66">
+   <stop id="stop1" stop-color="#208220" offset="0"/>
+   <stop id="stop2" stop-color="#2AC60F" offset="0.66462"/>
+   <stop id="stop3" stop-color="#208220" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect id="iconFG" style="stroke-dasharray:none;" stroke-width="1.6" fill-rule="evenodd" ry="2.3755" transform="matrix(0, -1, 1, 0, 0, 0)" width="22" stroke="#e6e6e6" stroke-linecap="round" stroke-miterlimit="4" y="16.646" x="-68.6" height="22" fill="url(#linearGradient3637)"/>
+</svg>

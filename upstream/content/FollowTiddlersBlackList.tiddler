@@ -1,0 +1,17 @@
+<div title="FollowTiddlersBlackList" modifier="osmosoft" created="20110719144323" tags="excludeLists excludeSearch excludeMissing" server.bag="tiddlyspace" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;tiddlyspace/FollowTiddlersBlackList/466964;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="osmosoft" _hash="6fc8ab230a904a71d63a42d97dccd8e135c1ed1c" server.page.revision="466964" server.title="FollowTiddlersBlackList" server.content-type="" server.permissions="read" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/tiddlyspace">
+<pre>ColorPalette
+StyleSheet
+SiteSubtitle
+GettingStarted
+SiteTitle
+MainMenu
+SiteIcon
+DefaultTiddlers
+ViewTemplate
+PageTemplate
+SideBarOptions
+EditTemplate
+SiteInfo
+SideBarTabs
+ToolbarCommands</pre>
+</div>

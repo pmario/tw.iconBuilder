@@ -1,0 +1,20 @@
+<div title="MpGreen" modifier="pmario" created="20100806192303" modified="20100918170546" tags="excludeLists systemPalette" server.bag="neui-em_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;neui-em_public/MpGreen/107134;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="4249b76cbe1802993e4115ccdf050317177cf966" server.page.revision="107134" server.title="MpGreen" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/neui-em_public">
+<pre>/*{{{*/
+Name: MpGreen
+Background: #cec
+Foreground: #000
+PrimaryPale: #9b9
+PrimaryLight: #385
+PrimaryMid: #031
+PrimaryDark: #020
+SecondaryPale: #ffc
+SecondaryLight: #fe8
+SecondaryMid: #db4
+SecondaryDark: #841
+TertiaryPale: #eee
+TertiaryLight: #ccc
+TertiaryMid: #999
+TertiaryDark: #666
+Error: #f88
+/*}}}*/</pre>
+</div>

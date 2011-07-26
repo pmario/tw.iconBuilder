@@ -1,0 +1,20 @@
+<div title="Important" modifier="pmario" created="20100729151050" modified="20110111202426" tags="default" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/Important/70457;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="fb42dcf5791e3ae84336582ff73b3386e557b814" revision.text="" server.page.revision="70457" server.title="Important" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>!@@ Everything should work again @@
+*If not post at: [[TiddlyWeb group|http://groups.google.com/group/tiddlyweb?hl=en]]
+
+*<use> element is not used yet.
+
+!Important
+*If you want to create your own configuration files and animated icons. Carefully read ''every'' tiddler inside the main menu first, and play with them. 
+*Have a look at the existing *.svg icons shown at [[What's new]].
+*Have a look at SvgStyleSheet
+*Don't look at the existing [[set.Toolbar]] tiddler.
+*Don't look at [[myFunctions]] tiddler
+**I told you. "Read the other mainMenu tiddlers first" :) 
+
+
+*''Include fxplugin'' space. Allmost nothing, will happen if you don't.
+**except: [[set.cssIcons.result]] 
+
+have fun!</pre>
+</div>

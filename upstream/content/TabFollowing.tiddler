@@ -1,0 +1,13 @@
+<div title="TabFollowing" modifier="jon" created="20100818140134" modified="20101001155043" tags="excludeLists" server.bag="following_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;following_public/TabFollowing/49996;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="jon" _hash="8fd76e9d0d4f4064ad10ced3355522eebe06c37c" server.page.revision="49996" server.title="TabFollowing" server.content-type="" server.permissions="read" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/following_public">
+<pre>!Followers
+<<followers>>
+!Activity
+[[Replies and Notifications]]
+
+<<activity>>
+!Following
+All spaces tagged follow
+<<list filter [tag[follow]][sort[title]]>>
+
+<<followSuggestions>></pre>
+</div>

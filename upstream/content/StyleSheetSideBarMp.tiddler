@@ -1,0 +1,77 @@
+<div title="StyleSheetSideBarMp" modifier="pmario" created="20100811113434" modified="20110318121808" tags="excludeLists" server.bag="neui-em_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;neui-em_public/StyleSheetSideBarMp/293250;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="b0211f6b9ed8c0cb2ed8b8fc1e3b15eb1276ba41" server.page.revision="293250" server.title="StyleSheetSideBarMp" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/neui-em_public">
+<pre>/*{{{*/
+#sidebar .wizard table {
+	margin: 0px;
+}
+
+#sidebarSearch {
+	margin: 0.2em 1em 0;
+	position: relative;
+}
+
+#sidebarSearch .txtOptionInput {
+	width: 100%;
+	margin-top: 5px;
+}
+
+#sidebarSearch .searchButton {
+	padding: 0.2em;  
+	color: [[ColorPalette::Background]];
+}
+
+/* the borders look wrong with the body background */
+#sidebar .button {
+	border-style: none;
+}
+
+/*-- new vor FreeStyle --*/
+.tabContents {
+	overflow: auto;
+}
+
+#sidebarTabs .tabContents{
+	width: auto;
+}
+
+#sidebarTabs .sliderpanel a{
+	display: inline;
+} 
+
+#sidebarTabs a.button,
+#sidebarTools a.button {
+	margin:0 0.2em; 
+	padding:0.2em 0.3em; 
+	display:block;
+}
+
+.sidebarBox {			/*-- new for FreeStyle --*/
+	padding-top: 0.3em;
+}
+
+/***
+This fixes a problem with the tabs slider
+***/
+#sidebarTabs .button {
+	margin:0em 0.2em;
+	padding:0.2em 0.3em;
+	display:block;
+}
+
+#sidebarTools .sliderpanel,
+#sidebarOptions .sliderpanel {
+	margin: 0 0.5em; 
+} 
+
+/* remove fixed size from inputs eg: search and password in sidebar */
+.txtOptionInput, .pasOptionInput {
+	width: 90%;
+}
+
+/* adjust spacing for the above */
+#sidebarOptions .input {
+	margin: 0.4em 5%; 
+}
+
+
+/*}}}*/</pre>
+</div>

@@ -1,0 +1,195 @@
+<div title="IconBuilder" modifier="pmario" created="20100728230628" modified="20110721154252" s-order="50" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/IconBuilder/471268;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="264112f781c7c1180e5e3505bee02b8acdc833ac" revision.text="" server.page.revision="471268" server.title="IconBuilder" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>!IMPORTANT
+*''If you don't select a "Icon name prefix" the builder may overwrite your personal toolbar icons.''
+**especially valid for [[set.Toolbar.result]]
+*There are revisions. Be warned but stay cool :)
+
+!Automatic Icon Builder
+Icon name prefix: <<select =txtNamePrefix +IconPrefixList allowBlank allowEdit rows:1>>
+{{dp33{Configuration tiddler: <<select =txtIconConfig +IconConfigList allowEdit rows:1>>}}}{{dp33{Functions tiddler: <<select =txtFunctionsConfig +FunctionConfigList allowEdit rows:1>>}}}{{dp33{Set tiddler content-type: <<select =txtServerContentType "text/plain" "image/svg+xml" rows:1>>}}}
+<br>
+Don't forget the warning above!
+Click <script label="Create icons according to above configuration!">
+
+(function($) {
+
+
+var readSVG = function(tidIcons, tidFunctions) {
+	
+	var slices = store.getTiddlerText(tidIcons).readBracketedList();
+	var functions = store.getTiddlerText(tidFunctions).readBracketedList();
+
+	// JSONify the functions. acts = actions
+	// IMPORTANT: At the moment only acts[0] can be handled. it is hardcoded below !!!!
+	var acts= [];
+	for (i=0; i<functions.length; i++) {
+		acts[i] = jQuery.parseJSON( JSON.minify(functions[i]));
+	}
+	console.log(acts);
+
+	// JSONify the icons
+	//assamble the functions
+	var conf = [];
+	var confX = [];
+	var defaultConf = {};
+	for (i=0; i<slices.length; i++) {
+		confX[i] = jQuery.parseJSON( JSON.minify(slices[i]));
+		if (confX[i].default === true) {
+			defaultConf = confX[i];
+			delete defaultConf.default;
+		}
+		conf[i] = {};
+		$.extend(true, conf[i], defaultConf, confX[i])
+	}
+	console.log({"conf":conf, "Def":defaultConf, "x": confX});
+
+	return {"conf":conf, "actions":acts}
+}; // readSVG()
+//==============
+
+var createSVG = function(conf, actions) {
+
+var name = conf.icon;
+var svgBg = conf.elems.bg;
+var svgFg = conf.elems.fg;
+var svgSymbol = conf.elems.sy;
+var tags = conf.tags || [];
+
+if (svgBg == "") return alert("No bacground tiddler selected!");
+if (svgFg == "") return alert("No foreground tiddler selected!");
+if (svgSymbol == "") return alert("No symbol tiddler selected!");
+
+var BG = store.getTiddlerText(svgBg );
+var FG = store.getTiddlerText(svgFg );
+var SYMBOL = store.getTiddlerText(svgSymbol);
+
+if (!BG ) {
+	displayMessage(name + ': Background tiddler not found')
+	return false;
+}
+else if ( !FG ) {
+	displayMessage(name + ': Foreground tiddler not found')
+	return false;
+}
+else if ( !SYMBOL) {
+	displayMessage(name + ': Symbol tiddler not found')
+	return false;
+}
+
+var parser = new DOMParser();
+var bgObject= parser.parseFromString(BG, "text/xml");
+var fgObject= parser.parseFromString(FG, "text/xml");
+var symbolObject= parser.parseFromString(SYMBOL, "text/xml");
+
+// console.log(bgObject);
+
+var bg = $(bgObject);
+var fg = $(fgObject);
+var symbol = $(symbolObject);
+
+bg.find('#iconBG').after(
+	symbol.find('#iconSymbol')).after(
+	document.createTextNode('\n')).after(
+	fg.find('#iconFG')).after(document.createTextNode('\n '));
+
+bg.find('defs').append(fg.find('linearGradient')).append(fg.find('filter'));
+
+//console.log('bg: ',bg);
+//console.log('conf: ', conf, 'actions: ', actions);
+
+if (conf.parts) {
+	// svg element loop. svg2, icon, iconFG ..
+	for (el in conf.parts) {
+
+		// svg action loop: click, mousein, mouseout ...
+		for (attr in conf.parts[el]) {
+
+			// find the object (el), which should contain a function
+			// eg: attr('onmousein', value) value comes from actions.
+
+//console.log('el:',el,'|attr:',attr,'|svg:',conf.parts[el],'|act:',conf.parts[el][attr],'|funct:',actions[0][attr][conf.parts[el][attr]]);
+
+			bg.find('#'+el).attr(attr, actions[0][attr][conf.parts[el][attr]] );
+
+		} // action loop
+	} // for element loop
+}
+
+var text = new XMLSerializer().serializeToString(bgObject);
+
+co.textNamePrefix = (co.txtNamePrefix) ? co.txtNamePrefix : 'mp_';
+
+var svgName = co.txtNamePrefix  + name;
+
+var tid = store.getTiddler(svgName);
+//	if(!tid) {
+		tid = new Tiddler(svgName);
+		tid.creator='iconbuilder.tiddlyspace.com';
+//	}
+
+	tid.fields = merge({}, config.defaultCustomFields);
+	tid.fields['server.content-type'] = co.txtServerContentType || 'image/svg+xml';
+	tid.tags = tags;
+	tid.tags[tid.tags.length] = config.options.txtIconConfig;	
+	tid.text = text;
+//console.log('iconTiddler: ', tid);
+
+	// 
+	store.saveTiddler(tid.title, tid.title, tid.text, tid.modifier, tid.modified, tid.tags, tid.fields, false, tid.created, tid.creator);
+	autoSaveChanges(null, [tid]);
+
+	var here=story.findContainingTiddler(place);
+	if (here) story.refreshTiddler(here.getAttribute('tiddler'),null,true);
+	return false;
+}; // createSVG()
+
+//========
+var co = config.options
+var revOld = co.chkAskForRevisionText;	// disable revision.text input
+co.chkAskForRevisionText = false;
+
+var s = readSVG(co.txtIconConfig, co.txtFunctionsConfig);
+
+if (!s) return false;
+//console.log('s: ',s) 
+
+var lineTemplate = '[[%0]]: <<image %0>>\n';
+var text = '';	// used for IconBuilderResult
+
+store.suspendNotifications;
+
+for (j=0; j<s.conf.length; j++) {
+	createSVG(s.conf[j], s.actions);
+	text += lineTemplate.format([co.txtNamePrefix + s.conf[j].icon]);
+}
+
+store.resumeNotifications;
+store.notifyAll;
+
+//===========
+
+svgName = config.options.txtIconConfig + '.result';
+var tid = store.getTiddler(svgName);
+//	if(!tid) {
+		tid = new Tiddler(svgName);
+		tid.creator = 'iconbuilder.tiddlyspace.com'
+//	}
+	tid.fields = merge({}, config.defaultCustomFields);
+	tid.modifier ='IconBuilder';
+	tid.tags = [];	
+	tid.text = text;
+
+	// 
+	store.saveTiddler(tid.title, tid.title, tid.text, tid.modifier, tid.modified, tid.tags, tid.fields, false, tid.created, tid.creator);
+	autoSaveChanges(null, [tid]);
+
+	var here=story.findContainingTiddler(place);
+	if (here) story.refreshTiddler(here.getAttribute('tiddler'),null,true);
+
+	story.displayTiddler(null, svgName);
+
+co.chkAskForRevisionText = revOld;
+})(jQuery);
+
+</script></pre>
+</div>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns="http://www.w3.org/2000/svg" height="29pt" width="29pt" version="1.0" viewBox="13 43 29 29">
+ <g id="iconSymbol" stroke-linejoin="round" stroke="#4d4d4d" stroke-linecap="round" fill="none">
+  <path d="m32.71,59.791a1.2868,1.2868,0,1,1,-2.5736,0,1.2868,1.2868,0,1,1,2.5736,0z" transform="matrix(0.47292778,0,0,0.47292778,12.353553,34.606355)" stroke-width="4"/>
+  <path d="m-5.7134,10.839a1.5781,1.5781,0,1,1,0.00225,-0.03585" transform="matrix(4.2270638,0,0,2.0253322,58.117991,41.173932)"  stroke-width="0.68353766"/>
+  <path d="m27.559,49.224,4.9188,2.0603-3.569,0,0.15291,6.0339-3.1302,0,0-6.0339-3.514,0,5.1416-2.0603z" stroke-width="1"/>
+ </g>
+</svg>

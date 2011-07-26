@@ -1,0 +1,46 @@
+<div title="StyleSheetMp" modifier="pmario" created="20100804112610" modified="20100804131655" tags="excludeLists" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/StyleSheetMp/70529;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="7cd9b10a8cebd47e83506a5bcde533d4c58203b3" revision.text="" server.page.revision="70529" server.title="StyleSheetMp" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>/*{{{*/
+
+[[SvgStyleSheet]]
+[[MaloStyleSheet]]
+
+/*needed for mainMenue*/
+.noBullets ul{
+	list-style: none;
+}
+
+/* lower toolbar if not selectet */
+.toolbar {
+	opacity: 0.3;
+}
+.selected .toolbar {
+	opacity: 1;
+}
+
+/* prefer monospace for editing */
+.editor textarea, .editor input {
+	font-family: 'Consolas';
+	font-size: .8em;
+	overflow: auto;
+}
+
+/*needed to remove toolbar buttons padding*/
+
+.tiddler .toolbar .button, 
+.tiddler .toolbar .button:hover,
+.tiddler .toolbar .button:active  
+{
+color: none;
+background: none;
+padding:0 0 0 0.5em;
+margin:0;
+border:0;
+}
+
+
+.gray {
+	background: gray;
+	display: inline-block;
+}
+/*}}}*/</pre>
+</div>

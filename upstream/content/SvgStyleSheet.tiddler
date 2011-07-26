@@ -1,0 +1,44 @@
+<div title="SvgStyleSheet" modifier="pmario" created="20100728230629" modified="20101205170227" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/SvgStyleSheet/70611;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="0ec7c298a4ec8c0af5eb4f03bafdb52889bc80bf" revision.text="" server.page.revision="70611" server.title="SvgStyleSheet" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>/*{{{*/
+
+/* test */
+
+
+/*=========================*/
+/* needed for set.Toolbar???   */
+/*=========================*/
+.toolbar .smallOnActive:active {
+	width: 20pt;
+	height: 18pt;
+}
+
+
+/*=========================*/
+/* needed for set.tBg???   */
+/*=========================*/
+.showFG {
+	opacity: 0;
+}
+
+svg:hover .showFG {
+	opacity: 1;
+}
+
+
+
+/*=========================*/
+/* needed for set.cssIcons */
+/*=========================*/
+
+.svgImage .overlayOnHover:hover {
+	opacity: 0.4;
+}
+
+.svgImage:active .overlayOnHover {
+	opacity: 0;
+}
+
+
+
+/*}}}*/</pre>
+</div>

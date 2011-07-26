@@ -1,0 +1,17 @@
+title: TiddlySpaceFollowingWizard
+modifier: jon
+created: 20101222235738
+modified: 20101222235738
+tags: excludeLists excludeSearch systemConfig
+server.bag: following_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;following_public/TiddlySpaceFollowingWizard/50020;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: jon
+_hash: c79ce0a49ba9c97f6d18908f158277b07308752a
+server.page.revision: 50020
+server.title: TiddlySpaceFollowingWizard
+server.content-type: 
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/following_public

@@ -1,0 +1,42 @@
+<div title="builderTest.svg" modifier="pmario" created="20100728231413" modified="20110722185114" tags="modified" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/builderTest.svg/473293;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="319d8626e7f1bff63f13aae9793d55972548454e" server.page.revision="473293" server.title="builderTest.svg" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="29pt" width="29pt" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="13 43 29 29" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata14">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>http://creativecommons.org/licenses/by-nc-sa/3.0/at/</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <dc:source>http://iconbuilder.tiddlyspace.com</dc:source>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Mario Pietsch</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs6">
+  <filter id="filter3630">
+   <feGaussianBlur id="feGaussianBlur3632" stdDeviation="0.625"/>
+  </filter>
+ <linearGradient id="linearGradient001" y2="27.646" gradientUnits="userSpaceOnUse" x2="-45.8" y1="27.646" x1="-57.66">
+   <stop id="stop1" stop-color="#B9B9FF" offset="0"/>
+   <stop id="stop2" stop-color="#E8E8FF" offset="0.66462"/>
+   <stop id="stop3" stop-color="#B9B9FF" offset="1"/>
+  </linearGradient></defs>
+ <rect id="iconBG" stroke-width="1.2" fill-rule="evenodd" ry="4.1663" transform="matrix(0, -1, 1, 0, 0, 0)" width="25" stroke="#696969" y="15.167" x="-70.116" height="25" fill="none"/>
+ <rect id="iconFG" stroke-width="0" fill-rule="evenodd" ry="2.3755" transform="matrix(0, -1, 1, 0, 0, 0)" width="22" y="16.646" x="-68.6" height="22" fill="url(#linearGradient001)"/>
+ <g id="iconSymbol" transform="translate(-0.315074)" stroke="#4d4d4d" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" fill="none">
+  <path id="path2931" d="m36.16,56.12c0,3.7748-4.1464,9.9314-8.0845,9.854-4.5778-0.08999-8.0845-6.0792-8.0845-9.854s3.6195-6.8348,8.0845-6.8348c4.4649,0,8.0845,3.06,8.0845,6.8348z" stroke-width="2.02421999"/>
+  <path id="path2936" d="m33.536,55.223c0.09686,0.35659-0.45023,1.2672-1.6035,1.8496-1.1533,0.58232-2.4204,0.40856-2.5729,0.2592-0.32921-0.32246,0.38263-1.5659,1.5359-2.1482,1.1533-0.58232,2.4104-0.41626,2.6405,0.03944z" stroke-width="1.20000005"/>
+  <path id="path3713" d="m27.079,57.216c-0.21244,0.30234-1.2625,0.46329-2.4473-0.05188s-1.8607-1.601-1.8432-1.8137c0.03774-0.45928,1.4491-0.70609,2.6339-0.19092s1.8602,1.5884,1.6567,2.0565z" stroke-width="1.20000005"/>
+ </g>
+ <rect id="overlay" transform="matrix(0, -1, 1, 0, -32, 0)" fill-rule="evenodd" ry="4.1663" height="25" filter="url(#filter3630)" width="25" stroke="#00F" y="47.167" x="-70.116" stroke-width="1.2" fill="#ACF"/>
+</svg></pre>
+</div>

@@ -1,0 +1,3 @@
+<div title="CSidebarOptions" modifier="pmario" created="20100806192303" modified="20100918170547" tags="excludeLists" server.bag="neui-em_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;neui-em_public/CSidebarOptions/107058;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="5df8176c6db1d12bb775584228ad916db46298e0" server.page.revision="107058" server.title="CSidebarOptions" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/neui-em_public">
+<pre><<slider chkSliderOptionsPanel OptionsPanel "Options »" "display the options panel">></pre>
+</div>

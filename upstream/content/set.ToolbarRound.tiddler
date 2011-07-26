@@ -1,0 +1,102 @@
+<div title="set.ToolbarRound" modifier="pmario" created="20110722204058" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/set.ToolbarRound/473500;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="ce0457cee3d1b65331311c8d1be70e1592c73f2b" server.page.revision="473500" server.title="set.ToolbarRound" server.content-type="text/plain" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>[[ {	"default": true,	// If set to true, "elems" and "parts" are used as default values. 
+				// If you want new default values, mark an other element as default
+	"tags"	: ["icon"],	// ["icon"] .. css animated; ["icon", "iconFx"] .. js animated + js functions
+	"icon"  : "editTiddler",
+	"elems" : { "bg": "bBgRound.svg", "fg": "bFgGnRound.svg", "sy": "sEdit.svg" },
+	"parts" : {
+		"svg2"       : { "class" : "soa"},
+		"overlay"    : { "class" : "sOV"},
+		"icon"       : {},
+		"iconFG"     : { "class" : "sFG"},
+		"iconBG"     : { "class" : "sBG"},
+		"iconSymbol" : { "class" : "sSY"}
+		} // "parts"
+} ]]
+
+[[ {	"icon" : "saveDraft",
+	"elems" : { /** bg **/ "fg": "bFgGnRound.svg", "sy":"sSaveDraft.svg"}
+} ]]
+
+[[ {	"icon" : "savePublicTiddler",
+	"elems" : { /** bg **/ "fg": "bFgGnRound.svg", "sy":"sSavePublic.svg"}
+} ]]
+
+[[ {	"icon" : "saveTiddler",
+	"elems" : { /** bg **/ "fg": "bFgGnRound.svg", "sy":"sSaveTiddler.svg"}
+} ]]
+
+[[ {	"icon" : "publishTiddlerRevision",
+	"elems" : { /** bg **/ "fg": "bFgGnRound.svg", "sy":"sSavePublic.svg"}
+} ]]
+
+[[ {	"icon"  : "closeTiddler",
+	"elems" : { /** bg **/ "fg": "bFgRdRound.svg", "sy": "sCloseTiddler.svg" }
+} ]]
+
+[[ {	"icon"  : "closeOthers",
+	"elems" : { /** bg **/ "fg": "bFgRdRound.svg", "sy": "sCloseOthers.svg" }
+} ]]
+
+[[ {	"icon"  : "deleteTiddler",
+	"elems" : { /** bg **/ "fg": "bFgRdRound.svg", "sy": "sDelete.svg" }
+} ]]
+
+[[ {	"icon"  : "revert",
+	"elems" : { /** bg **/ "fg": "bFgRdRound.svg", "sy": "sSpiral.svg" }
+} ]]
+
+[[ {	"icon" : "editTiddlerReadOnly",
+	"elems" : { /** bg **/ "fg": "bFgBlRound.svg", "sy":"sView.svg"} 
+} ]]
+
+[[ {	"icon"  : "cancelTiddler",
+	"elems" : { /** bg **/ "fg": "bFgBlRound.svg", "sy": "sCancel.svg" }
+} ]]
+
+[[ {	"icon"  : "cloneTiddler",
+	"elems" : { /** bg **/ "fg": "bFgBlRound.svg", "sy": "sCopy.svg" }
+} ]]
+
+[[ {	"icon" : "changeToPublic",
+	"elems" : { /** bg **/ "fg":"bFgBlRound.svg", "sy":"sSavePublic.svg"} 
+} ]]
+
+[[ {	"icon"  : "fields",
+	"elems" : { /** bg **/ "fg": "bFgBrRound.svg", "sy": "sFields.svg" }
+} ]]
+
+[[ {	"icon"  : "pubRev",
+	"elems" : { /** bg **/ "fg": "bFgBrRound.svg", "sy": "sPublic.svg" }
+} ]]
+
+[[ {	"icon"  : "revisions",
+	"elems" : { /** bg **/ "fg": "bFgBrRound.svg", "sy": "sRevisions.svg" }
+} ]]
+
+[[ {	"icon"  : "syncing",
+	"elems" : { /** bg **/ "fg": "bFgBrRound.svg", "sy": "sSyncing.svg" }
+} ]]
+
+[[ {	"icon"  : "permalink",
+	"elems" : { /** bg **/ "fg": "bFgBrRound.svg", "sy": "sPermalink.svg" }
+} ]]
+
+[[ {	"icon"  : "references",
+	"elems" : { /** bg **/ "fg": "bFgBrRound.svg", "sy": "sBacklink.svg" }
+} ]]
+
+[[ {	"icon"  : "jump",
+	"elems" : { /** bg **/ "fg": "bFgBrRound.svg", "sy": "sJump.svg" }
+} ]]
+
+[[ {	"icon" : "changeToPrivate",
+	"elems" : { /** bg **/ "fg":"bFgBrRound.svg", "sy":"sInclude.svg"}
+} ]]
+
+[[ {	"icon"  : "moreCommand",
+	"elems" : { "bg": "bBgTri.svg", "fg": "bFgTri.svg", "sy": "sTriMore.svg" }
+} ]]
+
+</pre>
+</div>

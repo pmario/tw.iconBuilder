@@ -1,0 +1,17 @@
+title: tsScanCountPlugin
+modifier: jon
+created: 20110331073807
+modified: 20110411103933
+tags: excludeLists excludeSearch systemConfig
+server.bag: following_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;following_public/tsScanCountPlugin/329525;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: jon
+_hash: 1ee08923ff297138f10696798a07381af707548d
+server.page.revision: 329525
+server.title: tsScanCountPlugin
+server.content-type: 
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/following_public

@@ -1,5 +1,18 @@
-modifier: YourName
-created: 201002202000
-modified: 201002202000
-tags: systemConfig
-changecount: 10
+title: zzConfig
+modifier: pmario
+created: 20101004160519
+modified: 20101127223734
+tags: excludeLists systemConfig
+server.bag: iconbuilder_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;iconbuilder_public/zzConfig/71854;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: pmario
+_hash: fc21f0f7fcc7616ba739829b4c10b271a04586d4
+revision.text: 
+server.page.revision: 71854
+server.title: zzConfig
+server.content-type: 
+server.permissions: read, write, create, delete
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/iconbuilder_public

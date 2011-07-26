@@ -1,0 +1,27 @@
+<div title="SvgEvent_Info" modifier="pmario" created="20100727165404" modified="20100918155901" tags="fxPlugins" server.bag="fxplugins_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;fxplugins_public/SvgEvent_Info/53377;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="cdb450f67b105d84818e419f19a8a9e9819a5b8d" server.page.revision="53377" server.title="SvgEvent_Info" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/fxplugins_public">
+<pre>/***
+|''Name''|SvgEvent_Info|
+|''Description''|connects .svg mouse events with global TW jQuery custom events.|
+|''Author''|Mario Pietsch|
+|''Version''|0.2.0|
+|''Source''|http://fxplugins.tiddlyspace.com|
+|''License''|[[BSD|http://www.opensource.org/licenses/bsd-license.php]]|
+|''CoreVersion''|2.6|
+|''Keywords''|svg, events, animation, commands|
+!Idea
+http://softwareas.com/automagic-event-registration
+!The plugin structure
+# [[SvgEvent_Animations]] .. animation componets
+# [[SvgEvent_Menue]] .. menue / toolbar command components
+!Needed inside an .svg tiddler
+*eg: [[tfgNewTiddler.svg]]
+*onclick(): {{{onclick="jQuery(document).trigger('cmd3', {elem:this, comp:{menue:1}})"}}}
+**Click the icon, will trigger cmd3 in SvgEvent_Menue
+*onmousedown: {{{onmousedown="jQuery(document).trigger('cmd4', {elem:this, comp:{animations:1}})"}}}
+*onmouseup: {{{onmouseup="jQuery(document).trigger('cmd3', {elem:this, comp:{animations:1}})"}}}
+**onmousedown, onmouseup are activating the corresponding commands in SvgEvent_Animations
+!Known issues
+!Elements tagged {{{fxPlugins}}}
+<<list filter [tag[fxPlugins]]>>
+</pre>
+</div>

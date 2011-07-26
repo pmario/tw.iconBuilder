@@ -1,0 +1,19 @@
+<div title="Automatic" modifier="pmario" created="20100806192303" modified="20101108133043" tags="excludeLists systemPalette" server.bag="neui-em_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;neui-em_public/Automatic/107040;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="8d1b740254a4a1d74f79824d1175ebfeea75eaf2" server.page.revision="107040" server.title="Automatic" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/neui-em_public">
+<pre>/*{{{*/
+Name:Automatic
+Background: #e5f0e5
+Foreground: #0e190f
+PrimaryPale: #fcfdfc
+PrimaryLight: #accfae
+PrimaryMid: #4A6C4A
+PrimaryDark: #000000
+SecondaryPale: #fdfcfc
+SecondaryLight: #cfacac
+SecondaryMid: #a15d5c
+SecondaryDark: #000000
+TertiaryPale: #fcfcfd
+TertiaryLight: #afaccf
+TertiaryMid: #615ca1
+TertiaryDark: #000000
+/*}}}*/</pre>
+</div>

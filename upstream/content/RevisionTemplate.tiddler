@@ -1,0 +1,24 @@
+<div title="RevisionTemplate" modifier="osmosoft" created="20110719144339" tags="excludeLists excludeMissing excludeSearch" server.bag="system-theme_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;system-theme_public/RevisionTemplate/466989;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="osmosoft" _hash="b182c10523c4d9fe3f622b1529b70d43f5150701" server.page.revision="466989" server.title="RevisionTemplate" server.content-type="" server.permissions="read" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/system-theme_public">
+<pre><!--{{{-->
+<div macro='slideRevision'></div>
+<div class='heading'>
+	<span class="titleBar">
+		<div class='title' macro='view title text'></div>
+	</span>
+	<span class='modifierIcon'
+		macro='view modifier SiteIcon label:no height:48 width:48 preserveAspectRatio:yes'>
+	</span>
+	<div class='toolbar'
+		macro='toolbar [[ToolbarCommands::RevisionToolbar]] icons:yes height:48 width:48 more:popup'>
+	</div>
+	<div class='tagClear'></div>
+</div>
+<div class='content'>
+	<div class='viewer' macro='view text wikified'></div>
+</div>
+<div class='tagInfo'>
+	<div class='tidTags' macro='tags'></div>
+	<div class='tagging' macro='tagging'></div>
+</div>
+<!--}}}--></pre>
+</div>

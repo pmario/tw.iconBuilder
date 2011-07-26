@@ -1,0 +1,27 @@
+<div title="EditTemplate" modifier="osmosoft" created="20110719144339" tags="excludeLists excludeSearch" server.bag="system-theme_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;system-theme_public/EditTemplate/466987;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="osmosoft" _hash="bb2ebcb9880f563a789711fbbbec5d3bfcb1b248" server.page.revision="466987" server.title="EditTemplate" server.content-type="" server.permissions="read" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/system-theme_public">
+<pre><!--{{{-->
+<div class='toolbar'
+	macro='toolbar [[ToolbarCommands::EditToolbar]] icons:yes'>
+</div>
+<div class='heading editorHeading'>
+	<div class='editor title' macro='edit title'></div>
+	<div class='tagClear'></div>
+</div>
+<div class='annotationsBox' macro='annotations'>
+	<div class='editSpaceSiteIcon'
+		macro='tiddlerOrigin height:16 width:16 label:no interactive:no'>
+	</div>
+	<div class="privacyEdit" macro='setPrivacy label:no interactive:no'></div>
+	<div class='tagClear'></div>
+</div>
+<div class='editor' macro='edit text'></div>
+<div class='editorFooter'>
+	<div class='tagTitle'>tags</div>
+	<div class='editor' macro='edit tags'></div>
+	<div class='tagAnnotation'>
+		<span macro='message views.editor.tagPrompt'></span>
+		<span macro='tagChooser excludeLists'></span>
+	</div>
+</div>
+<!--}}}--></pre>
+</div>

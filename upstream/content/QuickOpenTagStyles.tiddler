@@ -1,0 +1,30 @@
+<div title="QuickOpenTagStyles" modifier="pmario" created="20100807094830" modified="20100821093450" tags="excludeLists" server.bag="neui-em_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;neui-em_public/QuickOpenTagStyles/107213;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="8efc2e70297c11efc244173996cf5932ffaa0932" server.page.revision="107213" server.title="QuickOpenTagStyles" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/neui-em_public">
+<pre>/*{{{*/
+/* created by QuickOpenTagPlugin */
+#sidebarTabs .tabContents a.button { display:inline;}
+.tagglyTagged .quickopentag, .tagged .quickopentag 
+	{ border:1px solid #eee; padding:2px; padding-right:0px; padding-left:1px; }
+.quickopentag .tiddlyLink { padding:2px; padding-left:3px; display:inline; }
+.quickopentag a.button { padding:1px; padding-left:2px; padding-right:2px; display:inline;}
+/* extra specificity to make it work right */
+#displayArea .viewer .quickopentag a.button, 
+#displayArea .viewer .quickopentag a.tiddyLink, 
+#mainMenu .quickopentag a.tiddyLink, 
+#mainMenu .quickopentag a.tiddyLink 
+	{ border:0px solid black; display:inline;}
+#displayArea .viewer .quickopentag a.button, 
+#mainMenu .quickopentag a.button 
+	{ margin-left:0px; padding-left:2px; display:inline;}
+#displayArea .viewer .quickopentag a.tiddlyLink, 
+#mainMenu .quickopentag a.tiddlyLink 
+	{ margin-right:0px; padding-right:0px; padding-left:0px; margin-left:0px; }
+a.miniTag {font-size:150%;} 
+#mainMenu .quickopentag a.button 
+	/* looks better in right justified main menus */
+	{ margin-left:0px; padding-left:2px; margin-right:0px; padding-right:0px; display:inline;}
+#topMenu .quickopentag { padding:0px; margin:0px; border:0px; }
+#topMenu .quickopentag .tiddlyLink { padding-right:1px; margin-right:0px; }
+#topMenu .quickopentag .button { padding-left:1px; margin-left:0px; border:0px; display:inline; }
+/*}}}*/
+</pre>
+</div>

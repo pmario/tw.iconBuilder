@@ -1,0 +1,20 @@
+<div title="ColorPalette" modifier="pmario" created="20100807204912" modified="20101206101450" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/ColorPalette/70314;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="f8ab9a39a816a5549f388cf1f48e9f4b3abaccd6" revision.text="" server.page.revision="70314" server.title="ColorPalette" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>/*{{{*/
+Background: #e3eaf2
+Foreground: #0c141b
+PrimaryPale: #ffffff
+PrimaryLight: #adc3d9
+PrimaryMid: #5b87b3
+PrimaryDark: #0a0f15
+SecondaryPale: #ffffff
+SecondaryLight: #bed9ad
+SecondaryMid: #7eb35b
+SecondaryDark: #0e150a
+TertiaryPale: #ffffff
+TertiaryLight: #d9adc7
+TertiaryMid: #b35b90
+TertiaryDark: #150a11
+Error: #f88
+ColorPaletteParameters: HSL([210|66], [0.36509835156374804],[0.06232365550379004|1])
+/*}}}*/</pre>
+</div>

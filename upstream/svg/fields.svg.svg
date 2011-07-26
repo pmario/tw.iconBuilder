@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="29pt" viewBox="13 43 29 29" width="29pt" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" onmousedown="if(jQuery) jQuery(document).trigger('cSmaller', {elem:this, comp:{animations:1}})" onmouseup="if(jQuery) jQuery(document).trigger('cResize', {elem:this, comp:{animations:1}})">
+ <defs id="defs6">
+ <linearGradient id="linearGradient001" y2="27.646" gradientUnits="userSpaceOnUse" x2="-45.8" y1="27.646" x1="-57.66">
+   <stop id="stop1" stop-color="#CC9900" offset="0"/>
+   <stop id="stop2" stop-color="#E8D18B" offset="0.66462"/>
+   <stop id="stop3" stop-color="#CC9900" offset="1"/>
+  </linearGradient></defs>
+<g id="icon" stroke-linecap="round" stroke-miterlimit="4">
+ <rect id="iconBG" style="stroke-dasharray:none;" fill-rule="evenodd" ry="4.1663" transform="matrix(0, -1, 1, 0, 0, 0)" height="25" width="25" stroke="#696969" stroke-linecap="round" stroke-miterlimit="4" y="15.167" x="-70.116" stroke-width="1.2" fill="none"/>
+ <rect id="iconFG" stroke-width="0" fill-rule="evenodd" ry="2.3755" transform="matrix(0, -1, 1, 0, 0, 0)" width="22" stroke-miterlimit="4" y="16.646" x="-68.6" height="22" fill="url(#linearGradient001)" class="showOnHover" opacity="0"/>
+ <g id="iconSymbol" stroke-linejoin="miter" stroke="#4d4d4d" stroke-linecap="butt" fill="none">
+   <rect id="rect3637" style="stroke-dasharray:none;" ry="0" height="13.033" width="13.033" stroke-miterlimit="4" y="51.156" x="21.11" stroke-width="1.3672"/>
+   <path id="path3639" d="m20.989,54.423,12.783,0" stroke-width="0.80000001px"/>
+   <path id="path3641" d="m21.256,57.619,12.783,0" stroke-width="0.80000001px"/>
+   <path id="path3643" d="m21.211,60.682,12.65,0" stroke-width="0.80000001px"/>
+   <path id="path3645" d="m18.032,10.562,0,16.034" transform="matrix(0.8, 0, 0, 0.8, 13, 43)" stroke-width="1px"/>
+  </g>
+ <rect id="overlay" opacity="0.01" ry="4.1663" style="stroke-dasharray:none;" fill-rule="evenodd" transform="matrix(0, -1, 1, 0, 0, 0)" height="25" width="25" stroke="#e6e6e6" stroke-linecap="round" stroke-miterlimit="4" y="15.167" x="-70.116" stroke-width="1.2" fill="#e6e6e6" onmouseover="if(jQuery) jQuery(document).trigger('cTglBg', {elem:this, comp:{animations:1}})" onmouseout="if(jQuery) jQuery(document).trigger('cTglBg', {elem:this, comp:{animations:1}})"/>
+</g>
+</svg>

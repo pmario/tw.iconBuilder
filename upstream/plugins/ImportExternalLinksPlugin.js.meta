@@ -1,0 +1,17 @@
+title: ImportExternalLinksPlugin
+modifier: jon
+created: 20100922120945
+modified: 20110407081428
+tags: excludeLists excludeSearch systemConfig
+server.bag: following_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;following_public/ImportExternalLinksPlugin/325113;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: jon
+_hash: 189be5be607d68436a54fe910317989d26420dea
+server.page.revision: 325113
+server.title: ImportExternalLinksPlugin
+server.content-type: 
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/following_public

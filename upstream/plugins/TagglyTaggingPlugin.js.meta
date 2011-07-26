@@ -1,0 +1,17 @@
+title: TagglyTaggingPlugin
+modifier: pmario
+created: 20100806192305
+modified: 20110704195545
+tags: excludeLists systemConfig
+server.bag: neui-em_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;neui-em_public/TagglyTaggingPlugin/427269;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: pmario
+_hash: 257c305f42da95d3b420dd945454ca522de0e129
+server.page.revision: 427269
+server.title: TagglyTaggingPlugin
+server.content-type: 
+server.permissions: read, write, create, delete
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/neui-em_public

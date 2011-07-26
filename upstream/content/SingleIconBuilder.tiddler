@@ -1,0 +1,72 @@
+<div title="SingleIconBuilder" modifier="pmario" created="20100728230629" modified="20101202161729" s-order="4" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/SingleIconBuilder/70510;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="b3cbeb496aaa0f808772505252eb5accd9ca7a8f" revision.text="iconPartX" server.page.revision="70510" server.title="SingleIconBuilder" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>!Usage
+*Select the needed elements and press the generate button.
+*No javascript is added to the icon
+*The icons name is fixed: [[builderTest.svg]]
+*If you selected an element, the "show icon" button is needed!
+
+<<tiddler RefreshTiddler with: 'show icon'>>
+
+{{dp33{Background: 
+<<select =txtSvgBg rows:10 "=iconBgPart" >> <<image {{config.options.txtSvgBg}} 100 100 >> }}}{{dp33{Foreground:
+<<select =txtSvgFg rows:10 "=iconFgPart" >> <<image {{config.options.txtSvgFg}} 100 100 >> }}}{{dp33{Symbol:
+<<select =txtSvgSymbol rows:10 "=iconPartX" >> {{gray{<<image {{config.options.txtSvgSymbol}} 100 100 >> }}} <<image {{config.options.txtSvgSymbol}} 100 100 >>
+}}} 
+
+<<image builderTest.svg 100 100>>
+
+Click <script label="Create builderTest.svg icon!">
+(function($) {
+
+var svgBg = (config.options.txtSvgBg )? config.options.txtSvgBg : "";
+var svgFg = (config.options.txtSvgFg )? config.options.txtSvgFg : "";
+var svgSymbol = (config.options.txtSvgSymbol )? config.options.txtSvgSymbol : "";
+
+if (svgBg == "") return alert("No bacground tiddler selected!");
+if (svgFg == "") return alert("No foreground tiddler selected!");
+if (svgSymbol == "") return alert("No symbol tiddler selected!");
+
+var BG = store.getTiddlerText(svgBg );
+var FG = store.getTiddlerText(svgFg );
+var SYMBOL = store.getTiddlerText(svgSymbol );
+
+var parser = new DOMParser();
+var bgObject= parser.parseFromString(BG, "text/xml");
+var fgObject= parser.parseFromString(FG, "text/xml");
+var symbolObject= parser.parseFromString(SYMBOL, "text/xml");
+
+var bg = $(bgObject);
+var fg = $(fgObject);
+var symbol = $(symbolObject);
+
+bg.find('#iconBG').after(symbol.find('#iconSymbol')).after(document.createTextNode('\n ')).after(fg.find('#iconFG')).after(document.createTextNode('\n '));
+bg.find('defs').append(fg.find('linearGradient')).append(fg.find('filter'));
+
+// console.log(bg);
+
+var text = new XMLSerializer().serializeToString(bgObject);
+
+var svgName = 'builderTest.svg';
+
+var tid = store.getTiddler(svgName);
+	if(!tid) {
+		tid = new Tiddler(svgName);
+		tid.creator ='iconbuilder.tiddlyspace.com';
+	}
+	tid.modifier ='SingleIconBuilder';
+	tid.fields = merge({}, config.defaultCustomFields);
+	tid.tags = ['modified'];	
+	tid.text = text;
+
+	// 
+	store.saveTiddler(tid.title, tid.title, tid.text, tid.modifier, tid.modified, tid.tags, tid.fields, false, tid.created, tid.creator);
+	autoSaveChanges(null, [tid]);
+
+	var here=story.findContainingTiddler(place);
+	if (here) story.refreshTiddler(here.getAttribute('tiddler'),null,true);
+	return false;
+
+})(jQuery);
+
+</script></pre>
+</div>

@@ -1,0 +1,27 @@
+<div title="What's new" modifier="pmario" created="20100728230630" modified="20101203152218" s-order="1" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/What's%20new/70684;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="b9d92b850a8c581822af47754b93c02562cffd84" revision.text="" server.page.revision="70684" server.title="What's new" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>!2010.11.24
+!!Icons CSS only
+This icons use a special (invisible) overlay part, tha is shown on CSS hover. See: SvgStyleSheet for more.
+
+<<tiddler set.cssIcons.result 'dp50'>><<tiddler set.Toolbar.result 'dp50'>>
+<html><div class="clear" /></html>
+
+!!Icons for ~ToolbarCommands
+They only have animation scripts for mouseover, mousedown, mouseup. Needs: SvgEvent_Animations plugin.
+
+<<tiddler set.Mac.result 'dp50'>>
+<html><div class="clear" /></html>
+
+!!Icons for sidebar
+They contain scripts to do something + animations. Needs: SvgEvent_Animations and SvgEvent_Menue plugin.
+
+<<tiddler set.ToggleBg.result 'dp50'>> <<tiddler set.ToggleFg.result 'dp50'>>
+<html><div class="clear" /></html>
+
+!2010.07.13
+*Added [[GradientColor Modificator]] tiddler
+*Hover animation is disabled (temporarily)
+!2010.07.10
+*all svg's containing javascript now are tagged: iconFx
+*all svg's with JS have a fx .. prefix now in the name (eg: fxNewTiddler.svg)</pre>
+</div>

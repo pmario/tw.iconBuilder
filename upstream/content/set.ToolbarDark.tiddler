@@ -1,0 +1,571 @@
+<div title="set.ToolbarDark" modifier="pmario" created="20100728232057" modified="201008191850" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/set.ToolbarDark/71639;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="071371b3154b14faf2fb18e0df4a1d38864e073a" server.page.revision="71639" server.title="set.ToolbarDark" server.content-type="text/plain" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>[[ {	"icon" : "editTiddler",
+	"elems" : ["bBgTrans.svg", "bFgGnLight.svg", "sEditDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "saveDraft",
+	"elems" : ["bBgTrans.svg", "bFgGnLight.svg", "sSaveDraftDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "closeTiddler",
+	"elems" : ["bBgTrans.svg", "bFgRdLight.svg", "sCloseTiddlerDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "cancelTiddler",
+	"elems" : ["bBgTrans.svg", "bFgBlLight.svg", "sCancelDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "savePublicTiddler",
+	"elems" : ["bBgTrans.svg", "bFgGnLight.svg", "sSavePublicDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+[[ {	"icon" : "saveTiddler",
+	"elems" : ["bBgTrans.svg", "bFgGnLight.svg", "sSaveTiddlerDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "deleteTiddler",
+	"elems" : ["bBgTrans.svg", "bFgRdLight.svg", "sDeleteDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "moreCommand",
+	"elems" : ["bBgTri.svg", "bFgTri.svg", "sTriMoreDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "fields",
+	"elems" : ["bBgTrans.svg", "bFgBrLight.svg", "sFieldsDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "publishTiddlerRevision",
+	"elems" : ["bBgTrans.svg", "bFgGnLight.svg", "sSavePublicDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "pubRev",
+	"elems" : ["bBgTrans.svg", "bFgBrLight.svg", "sPublicDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "revisions",
+	"elems" : ["bBgTrans.svg", "bFgBrLight.svg", "sRevisionsDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "syncing",
+	"elems" : ["bBgTrans.svg", "bFgBrLight.svg", "sSyncingDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "permalink",
+	"elems" : ["bBgTrans.svg", "bFgBrLight.svg", "sPermalinkDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+
+[[ {	"icon" : "references",
+	"elems" : ["bBgTrans.svg", "bFgBrLight.svg", "sBacklinkDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "closeOthers",
+	"elems" : ["bBgTrans.svg", "bFgRdLight.svg", "sCloseOthersDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "jump",
+	"elems" : ["bBgTrans.svg", "bFgBrLight.svg", "sJumpDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+
+[[ {	"icon" : "cloneTiddler",
+	"elems" : ["bBgTrans.svg", "bFgBlLight.svg", "sCopyDark.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+[[ {	"icon" : "revert",
+	"elems" : ["bBgTrans.svg", "bFgRdLight.svg", "sSpiral.svg"],
+	"parts" : [
+		{ "svg" : "svg2" , "fx" : [
+					{"f" : "onmousedown", 	"x" : "sm"},
+					{"f" : "onmouseup", 	"x" : "re"},
+					]
+		},
+		{ "svg" : "overlay", "fx" : [
+					{"f" : "onmouseover", 	"x" : "tbg"},
+					{"f" : "onmouseout", 	"x" : "tbg"},
+					]
+		},
+		{ "svg" : "icon", "fx" : [
+					]
+		},
+		{ "svg" : "iconFG",	"fx" : [
+					{"f" : "class", 	"x" : "soh" },
+					{"f" : "opacity", 	"x" : "o00" },
+					]
+		},
+		{ "svg" : "iconBG",	"fx" : [
+					]
+		},
+		{ "svg" : "iconSymbol","fx" : [
+					]
+		},
+	]
+} ]]
+</pre>
+</div>

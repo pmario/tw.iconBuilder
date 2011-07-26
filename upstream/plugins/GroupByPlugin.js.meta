@@ -1,0 +1,17 @@
+title: GroupByPlugin
+modifier: jon
+created: 20110719144250
+modified: 20110719144250
+tags: excludeLists excludeSearch systemConfig
+server.bag: system-plugins_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;system-plugins_public/GroupByPlugin/466909;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: jon
+_hash: 762d3d44065594e31c4206477e03c2a215c873e3
+server.page.revision: 466909
+server.title: GroupByPlugin
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/system-plugins_public

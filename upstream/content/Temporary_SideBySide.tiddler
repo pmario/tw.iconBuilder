@@ -1,0 +1,40 @@
+<div title="Temporary SideBySide" modifier="pmario" created="20100728230629" modified="201008191921" server.bag="iconbuilder_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;iconbuilder_public/Temporary%20SideBySide/70635;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="pmario" _hash="b1bae919c17083902cce0f5295996e823fafae09" server.page.revision="70635" server.title="Temporary SideBySide" server.content-type="" server.permissions="read, write, create, delete" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/iconbuilder_public">
+<pre>related to: http://groups.google.com/group/tiddlywiki/browse_thread/thread/5b5c0206c9f39e11?hl=en
+!Needs
+*InlineJavascriptPlugin
+*MaloStyleSheet or EmasticPercent included in StyleSheet 
+*If you have small screen resolution, toggle sidebars first.
+*ToggleLeftSidebarEm: <<tiddler ToggleLeftSidebarEm>> | ToggleRightSidebarEm <<tiddler ToggleRightSidebarEm>>
+<<tiddler  [[Temporary SideBySide##Code50]]>> <<tiddler  [[Temporary SideBySide##Code33]]>> <<tiddler  [[Temporary SideBySide##Code100]]>>
+
+/*{{{*/
+!Code50
+<script label="click for 2 columns">
+	jQuery('.tiddler').each(function () {
+		var hasWrapper = jQuery(this).parent().hasClass('tidWrapper');
+		if (!hasWrapper)jQuery(this).wrap('<div class="tidWrapper" />');
+	});
+
+	jQuery('.tidWrapper').attr('class', 'tidWrapper dp50');
+</script>
+
+!Code33
+<script label="click for 3 columns">
+	jQuery('.tiddler').each(function () {
+		var hasWrapper = jQuery(this).parent().hasClass('tidWrapper');
+		if (!hasWrapper)jQuery(this).wrap('<div class="tidWrapper" />');
+	});
+
+	jQuery('.tidWrapper').attr('class', 'tidWrapper dp33');
+</script>
+
+!Code100
+<script label="click for 1 column">
+	jQuery('.tiddler').each( function () {
+		if (jQuery(this).parent().hasClass('tidWrapper')) jQuery(this).unwrap();
+	});
+</script>
+
+!end
+/*}}}*/</pre>
+</div>

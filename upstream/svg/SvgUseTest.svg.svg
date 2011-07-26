@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.0" height="29pt" viewBox="13 43 29 29" width="29pt"  xmlns:xlink="http://www.w3.org/1999/xlink" >
+<g id="icon" stroke-linecap="round" stroke-miterlimit="4">
+
+ <use xlink:href="#twglobal_bBg" /> 
+ <use xlink:href="#twglobal_bFgBl" class="showFGonHover" /> 
+
+ <g id="iconSymbol" stroke="#4d4d4d" stroke-miterlimit="4" fill="none" class="glyph">
+  <path id="path3640" stroke-linejoin="round" style="stroke-dasharray:none;" d="m33.165,50.126-10.258,9.3293-2.0113,4.3956,4.2474-2.1224,9.8299-9.5985-1.8075-2.004z" stroke-linecap="butt" stroke-width="1.60000002"/>
+  <path id="path3642" stroke-linejoin="miter" style="stroke-dasharray:none;" d="m13.981,27.04,12.705,0" transform="matrix(0.8, 0, 0, 0.8, 13, 43)" stroke-linecap="round" stroke-width="2"/>
+ </g>
+
+</g>
+</svg>

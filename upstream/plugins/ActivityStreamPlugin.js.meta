@@ -1,0 +1,17 @@
+title: ActivityStreamPlugin
+modifier: jon
+created: 20100917110749
+modified: 20110412100500
+tags: excludeLists systemConfig
+server.bag: following_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;following_public/ActivityStreamPlugin/330562;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: jon
+_hash: e8e570ecad97ac7a02a41323272d6a5e1e7bb963
+server.page.revision: 330562
+server.title: ActivityStreamPlugin
+server.content-type: 
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/following_public

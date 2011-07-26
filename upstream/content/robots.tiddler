@@ -1,0 +1,5 @@
+<div title="robots" modifier="None" created="20110719144301" tags="excludeLists excludeSearch" server.bag="system-info_public" server.host="http://iconbuilder.tiddlyspace.com" server.etag="&quot;system-info_public/robots/466931;38557a300c7db6bf205b78f536236444a956e37a&quot;" creator="None" _hash="78a746fb3df27c8ffcb8d551eda67e4c9bce8a7a" server.page.revision="466931" server.title="robots" server.content-type="text/plain" server.permissions="read" server.recipe="iconbuilder_private" server.type="tiddlyweb" server.workspace="bags/system-info_public">
+<pre>User-agent: *
+Disallow: /bags/*/tiddlers.wiki
+Disallow: /recipes/*/tiddlers.wiki</pre>
+</div>

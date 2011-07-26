@@ -1,0 +1,17 @@
+title: chrjs.space
+modifier: None
+created: 20110719144323
+modified: 20110719144323
+tags: excludeLists excludeSearch systemConfig
+server.bag: tiddlyspace
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;tiddlyspace/chrjs.space/466959;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: None
+_hash: d217973e5d4a431f88e685e10788deec7066ff2e
+server.page.revision: 466959
+server.title: chrjs.space
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/tiddlyspace

@@ -1,0 +1,17 @@
+title: TiddlySpaceFilters
+modifier: jon
+created: 20110719144323
+modified: 20110719144323
+tags: excludeLists excludeSearch systemConfig
+server.bag: tiddlyspace
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;tiddlyspace/TiddlySpaceFilters/466979;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: jon
+_hash: 3b6e75a776f9a07498220fe23b305bc97b531afc
+server.page.revision: 466979
+server.title: TiddlySpaceFilters
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/tiddlyspace

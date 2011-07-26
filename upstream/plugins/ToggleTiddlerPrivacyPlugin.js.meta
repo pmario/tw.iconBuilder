@@ -1,0 +1,17 @@
+title: ToggleTiddlerPrivacyPlugin
+modifier: jon
+created: 20110719144250
+modified: 20110719144250
+tags: excludeLists excludeSearch systemConfig
+server.bag: system-plugins_public
+server.host: http://iconbuilder.tiddlyspace.com
+server.etag: &quot;system-plugins_public/ToggleTiddlerPrivacyPlugin/466923;38557a300c7db6bf205b78f536236444a956e37a&quot;
+creator: jon
+_hash: 3bc6a8d80c76f3ca6aee852fffc2ccbc173a8750
+server.page.revision: 466923
+server.title: ToggleTiddlerPrivacyPlugin
+server.content-type: text/javascript
+server.permissions: read
+server.recipe: iconbuilder_private
+server.type: tiddlyweb
+server.workspace: bags/system-plugins_public
