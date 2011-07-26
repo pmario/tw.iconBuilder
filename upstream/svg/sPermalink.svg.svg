@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg id="svg2" xmlns="http://www.w3.org/2000/svg" height="29pt" width="29pt" version="1.0" viewBox="13 43 29 29">
-  <g id="iconSymbol" stroke-linejoin="miter" transform="matrix(0.74460323,-0.57140618,0.57140618,0.74460323,-26.720001,29.859427)" stroke="#4d4d4d" stroke-width="2.4000001" fill="none">
-   <rect ry="1.9242" height="6.1172" width="10.95" y="55.132" x="19.169"/>
-   <rect ry="1.9242" height="6.1172" width="10.95" y="56.513" x="25.822"/>
-  </g>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="29pt" viewBox="13 43 29 29" width="29pt" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <metadata id="metadata12">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs id="defs10">
+  <title id="title22">Canvas 1</title>
+  <title id="title26">Layer 1</title>
+ </defs>
+ <g id="iconSymbol" stroke-linejoin="miter" transform="matrix(0.82469617,-0.24783085,0.24783085,0.82469617,-10.310893,14.804544)" stroke="#4d4d4d" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="1.85802495" fill="none">
+  <rect id="rect8" transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)" ry="3.1727" height="10.086" width="12.486" y="63.586" x="-9.2264"/>
+  <rect id="rect10" ry="3.1727" transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)" height="10.086" width="12.486" y="59.54" x="-16.234"/>
+ </g>
 </svg>
