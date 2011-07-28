@@ -1,18 +1,7 @@
 title: sPermaview.svg
 modifier: pmario
-created: 20100728230633
-modified: 20110721141257
+created: 20100729080503
+modified: 20110721141258
 tags: iconPartX svg
-server.bag: iconbuilder_public
-server.host: http://iconbuilder.tiddlyspace.com
-server.etag: &quot;iconbuilder_public/sPermaview.svg/470882;38557a300c7db6bf205b78f536236444a956e37a&quot;
-creator: pmario
-_hash: 53d71f9fb80a2ad006311c55a2d0ec4039264912
-revision.text: 
-server.page.revision: 470882
-server.title: sPermaview.svg
 server.content-type: image/svg+xml
-server.permissions: read, write, create, delete
-server.recipe: iconbuilder_private
-server.type: tiddlyweb
-server.workspace: bags/iconbuilder_public
+

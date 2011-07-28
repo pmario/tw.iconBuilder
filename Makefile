@@ -11,7 +11,7 @@
 # or change the OPEN parameter below
 # $ which gnome-open will find the path
  
-OPEN=`open`
+OPEN= open
 PLUGINS_LIST= `cat plugins.list`
 GIT_LIST= `cat git.list`
 
@@ -39,6 +39,18 @@ upstream-html:
 # NOTE: the following section is quite hacky. 
 # There are more files involved, than should be, for debugging reasons.
 # It needs to be used in "production" for a while, to see if it works. :) 
+
+# this are the "primary" dist commands.
+plug:
+	cat plugins/split.recipe | awk '{print "plugins/"$$2}' > plugins.list
+	./upload.sh iconbuilder $(PLUGINS_LIST)
+
+gitall: git-list
+	./upload.sh iconbuilder $(GIT_LIST)
+
+gitplugins: plugins-list
+	./upload.sh iconbuilder $(PLUGINS_LIST)
+
 
 # below are the tools
 
@@ -70,14 +82,6 @@ git-list: names.list
 	egrep -o '.*(\.js|\.svg|\.tid|\.tiddler)$$' names.list > git.list
 	@echo ""
 	cat git.list
-
-# this are the "primary" dist commands.
-distall: git-list
-	./upload.sh iconbuilder $(GIT_LIST)
-
-distplugins: plugins-list
-	./upload.sh iconbuilder $(PLUGINS_LIST)
-
 
 
 # better listing
